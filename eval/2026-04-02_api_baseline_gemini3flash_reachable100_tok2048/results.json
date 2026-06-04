@@ -1,0 +1,2114 @@
+[
+  {
+    "sample_index": 0,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the tiles:\n\n- **Grid Layout (Row, Column):**\n  - (0,0): S (Start)\n  - (0,1): F (Frozen)\n  - (0,2):",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the tiles:\n\n- **Grid Layout (Row, Column):**\n - (0,0): S (Start)\n - (0,1): F (Frozen)\n - (0,2):",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0000_500001.jpg"
+  },
+  {
+    "sample_index": 1,
+    "raw_output": "To find a safe path from the Start (S) to the Goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Grid Size:** 4 rows (0 to 3) and 5 columns (0 to 4).\n- **Start (S):** (0, 0)\n-",
+    "clean_output": "To find a safe path from the Start (S) to the Goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Grid Size:** 4 rows (0 to 3) and 5 columns (0 to 4).\n- **Start (S):** (0, 0)\n-",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0001_500002.jpg"
+  },
+  {
+    "sample_index": 2,
+    "raw_output": "<think>\nThe grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 1), (0, 2), and (1, 1).\n- All other tiles are Frozen (F) and safe",
+    "clean_output": "<think>\nThe grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 1), (0, 2), and (1, 1).\n- All other tiles are Frozen (F) and safe",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0002_500003.jpg"
+  },
+  {
+    "sample_index": 3,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (0,2), (0,4), and (1,2).\n- All other tiles are Frozen (F) and safe to walk on.",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (0,2), (0,4), and (1,2).\n- All other tiles are Frozen (F) and safe to walk on.",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go right -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0003_500004.jpg"
+  },
+  {
+    "sample_index": 4,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of all tiles:\n\n1.  **Grid Layout (Row, Column):**\n    *   (0,0): Start (S) - Elf\n    *   (0,1), (0,2), (0",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of all tiles:\n\n1. **Grid Layout (Row, Column):**\n * (0,0): Start (S) - Elf\n * (0,1), (0,2), (0",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go right -> go right -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0004_500005.jpg"
+  },
+  {
+    "sample_index": 5,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the start, goal, and holes (H).\n\n1.  **Identify Grid Coordinates:**\n    *   The grid is 4 rows by 5 columns.\n    *   Start (S): (0, 0) -",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the start, goal, and holes (H).\n\n1. **Identify Grid Coordinates:**\n * The grid is 4 rows by 5 columns.\n * Start (S): (0, 0) -",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go right -> go right -> go down -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0005_500006.jpg"
+  },
+  {
+    "sample_index": 6,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Start (S):** (0, 0) - Top-left corner.\n- **Goal (G):** (3, 4) - Bottom-right corner.",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Start (S):** (0, 0) - Top-left corner.\n- **Goal (G):** (3, 4) - Bottom-right corner.",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go right -> go right -> go down -> go down -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0006_500007.jpg"
+  },
+  {
+    "sample_index": 7,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the holes (H) and the safe frozen tiles (F).\n\n1.  **Grid Analysis:**\n    *   **Start (S):** (0, 0) - Top-left corner.\n    *",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the holes (H) and the safe frozen tiles (F).\n\n1. **Grid Analysis:**\n * **Start (S):** (0, 0) - Top-left corner.\n *",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go down -> go down -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0007_500008.jpg"
+  },
+  {
+    "sample_index": 8,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (0,2), (1,1), (2,2), and (3,0).\n- Safe tiles (F) are at (0,",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (0,2), (1,1), (2,2), and (3,0).\n- Safe tiles (F) are at (0,",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0008_500009.jpg"
+  },
+  {
+    "sample_index": 9,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the tiles:\n\n1.  **Start (S):** (0, 0) - Top-left corner.\n2.  **Goal (G):** (3, 4) - Bottom-right corner.",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the tiles:\n\n1. **Start (S):** (0, 0) - Top-left corner.\n2. **Goal (G):** (3, 4) - Bottom-right corner.",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go down -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0009_500010.jpg"
+  },
+  {
+    "sample_index": 10,
+    "raw_output": "think>To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n1.  **Grid Layout (Row, Column):**\n    *   (0,0): S (Start)\n    *   (0,1): F\n    *",
+    "clean_output": "think>To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n1. **Grid Layout (Row, Column):**\n * (0,0): S (Start)\n * (0,1): F\n *",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go down -> go down -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0010_500012.jpg"
+  },
+  {
+    "sample_index": 11,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of all tiles:\n\n- **Start (S):** (0, 0)\n- **Goal (G):** (3, 4)\n- **Holes (H):** (1, 3),",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of all tiles:\n\n- **Start (S):** (0, 0)\n- **Goal (G):** (3, 4)\n- **Holes (H):** (1, 3),",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go down -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0011_500013.jpg"
+  },
+  {
+    "sample_index": 12,
+    "raw_output": "To find a safe path from the Start (S) to the Goal (G) in this 4x5 FrozenLake grid, we first identify the positions of all tiles:\n\n1.  **Identify the Grid Layout:**\n    *   The grid has 4 rows (0 to 3) and 5 columns (0 to 4).\n    *   **Start (S):**",
+    "clean_output": "To find a safe path from the Start (S) to the Goal (G) in this 4x5 FrozenLake grid, we first identify the positions of all tiles:\n\n1. **Identify the Grid Layout:**\n * The grid has 4 rows (0 to 3) and 5 columns (0 to 4).\n * **Start (S):**",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0012_500014.jpg"
+  },
+  {
+    "sample_index": 13,
+    "raw_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid's layout and the locations of the holes (H).\n\n1.  **Grid Layout (4 rows x 5 columns):**\n    *   Row 0: (0,0) S, (0,1) F, (0,2) F, (",
+    "clean_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid's layout and the locations of the holes (H).\n\n1. **Grid Layout (4 rows x 5 columns):**\n * Row 0: (0,0) S, (0,1) F, (0,2) F, (",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go right -> go down -> go down -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0013_500016.jpg"
+  },
+  {
+    "sample_index": 14,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the positions of all tiles:\n\n1.  **Identify the Grid Layout:**\n    *   The grid has 4 rows (0 to 3) and 5 columns (0 to 4).\n    *   **Start (S):",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the positions of all tiles:\n\n1. **Identify the Grid Layout:**\n * The grid has 4 rows (0 to 3) and 5 columns (0 to 4).\n * **Start (S):",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go down -> go right -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0014_500017.jpg"
+  },
+  {
+    "sample_index": 15,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the tiles:\n\n1.  **Start (S):** (0, 0) - Top-left corner.\n2.  **Goal (G):** (3, 4) - Bottom-right corner.",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the tiles:\n\n1. **Start (S):** (0, 0) - Top-left corner.\n2. **Goal (G):** (3, 4) - Bottom-right corner.",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0015_500018.jpg"
+  },
+  {
+    "sample_index": 16,
+    "raw_output": "<think>\nThe grid is 4 rows by 5 columns.\nThe start (S) is at (0, 0) (top-left corner).\nThe goal (G) is at (3, 4) (bottom-right corner).\nThere is a hole (H) at (1, 3).\n\nLet's map out the grid:\n(0",
+    "clean_output": "<think>\nThe grid is 4 rows by 5 columns.\nThe start (S) is at (0, 0) (top-left corner).\nThe goal (G) is at (3, 4) (bottom-right corner).\nThere is a hole (H) at (1, 3).\n\nLet's map out the grid:\n(0",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go down -> go down -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0016_500019.jpg"
+  },
+  {
+    "sample_index": 17,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 2), (0, 3), (2, 0), (2, 1), and (3, 1).",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 2), (0, 3), (2, 0), (2, 1), and (3, 1).",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go right -> go right -> go down -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0017_500020.jpg"
+  },
+  {
+    "sample_index": 18,
+    "raw_output": "<think>\nThe grid is 4 rows by 5 columns.\nThe start (S) is at (0,0) (top-left).\nThe goal (G) is at (3,4) (bottom-right).\nUpon examining the image, all tiles between the start and the goal appear to be frozen (F) tiles, as they all share the same snow texture",
+    "clean_output": "<think>\nThe grid is 4 rows by 5 columns.\nThe start (S) is at (0,0) (top-left).\nThe goal (G) is at (3,4) (bottom-right).\nUpon examining the image, all tiles between the start and the goal appear to be frozen (F) tiles, as they all share the same snow texture",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go right -> go right -> go down -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0018_500021.jpg"
+  },
+  {
+    "sample_index": 19,
+    "raw_output": "<think>\nThe grid is 4 rows by 5 columns.\nThe start (S) is at (0,0) (top-left).\nThe goal (G) is at (3,4) (bottom-right).\nUpon examining the image, all tiles between the start and the goal appear to be frozen (F) tiles, as they all share the same snow texture",
+    "clean_output": "<think>\nThe grid is 4 rows by 5 columns.\nThe start (S) is at (0,0) (top-left).\nThe goal (G) is at (3,4) (bottom-right).\nUpon examining the image, all tiles between the start and the goal appear to be frozen (F) tiles, as they all share the same snow texture",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go down -> go right -> go down -> go down -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0019_500022.jpg"
+  },
+  {
+    "sample_index": 20,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n1.  **Grid Layout (Row, Column):**\n    *   (0,0) is the Start (S) where the elf is.\n    *   (3,4) is the",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n1. **Grid Layout (Row, Column):**\n * (0,0) is the Start (S) where the elf is.\n * (3,4) is the",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go right -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0020_500023.jpg"
+  },
+  {
+    "sample_index": 21,
+    "raw_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n1.  **Grid Layout (4 rows x 5 columns):**\n    *   Row 0: (0,0:S), (0,1:F), (0,2:F), (0,3:",
+    "clean_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n1. **Grid Layout (4 rows x 5 columns):**\n * Row 0: (0,0:S), (0,1:F), (0,2:F), (0,3:",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go down -> go right -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0021_500024.jpg"
+  },
+  {
+    "sample_index": 22,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Grid Size:** 4 rows (0 to 3) and 5 columns (0 to 4).\n- **Start (S):** (0, 0)\n- **",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Grid Size:** 4 rows (0 to 3) and 5 columns (0 to 4).\n- **Start (S):** (0, 0)\n- **",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go right -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0022_500026.jpg"
+  },
+  {
+    "sample_index": 23,
+    "raw_output": "To find a safe path from the Start (S) to the Goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of all tiles, including the holes (H).\n\n1.  **Map Layout and Coordinates:**\n    *   (0, 0): S (Start)\n    *   (0, 1): F (Frozen",
+    "clean_output": "To find a safe path from the Start (S) to the Goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of all tiles, including the holes (H).\n\n1. **Map Layout and Coordinates:**\n * (0, 0): S (Start)\n * (0, 1): F (Frozen",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go right -> go down -> go right -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0023_500029.jpg"
+  },
+  {
+    "sample_index": 24,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (1, 0), (1, 4), (3, 0), and (3, 2).\n- Safe tiles",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (1, 0), (1, 4), (3, 0), and (3, 2).\n- Safe tiles",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go down -> go down -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0024_500030.jpg"
+  },
+  {
+    "sample_index": 25,
+    "raw_output": "<think>\n1.  **Analyze the grid:**\n    *   The grid is 4 rows by 5 columns.\n    *   Start (S) is at (0, 0) (top-left).\n    *   Goal (G) is at (3, 4) (bottom-right).\n    *   Holes (H) are at:\n",
+    "clean_output": "<think>\n1. **Analyze the grid:**\n * The grid is 4 rows by 5 columns.\n * Start (S) is at (0, 0) (top-left).\n * Goal (G) is at (3, 4) (bottom-right).\n * Holes (H) are at:",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go down -> go down -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0025_500031.jpg"
+  },
+  {
+    "sample_index": 26,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles (using 0-indexed rows and columns):\n\n1.  **Identify the grid layout:**\n    *   **Start (S):** (0, 0) - Top-left corner.\n",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles (using 0-indexed rows and columns):\n\n1. **Identify the grid layout:**\n * **Start (S):** (0, 0) - Top-left corner.",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go down -> go right -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0026_500034.jpg"
+  },
+  {
+    "sample_index": 27,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the holes (H) to avoid them.\n\n1.  **Identify the grid layout:**\n    *   Start (S): (0, 0) - Top-left corner.\n    *   Goal (G",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the holes (H) to avoid them.\n\n1. **Identify the grid layout:**\n * Start (S): (0, 0) - Top-left corner.\n * Goal (G",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0027_500035.jpg"
+  },
+  {
+    "sample_index": 28,
+    "raw_output": " (1,4) F - Safe\n    (1,4) F - Safe\n    (2,4) F - Safe\n    (3,4) G - Safe\n\n    Wait, let me re-check the grid image one more time to be absolutely sure about the holes.\n    Row 0: S, F, F, F, F (All safe",
+    "clean_output": "(1,4) F - Safe\n (1,4) F - Safe\n (2,4) F - Safe\n (3,4) G - Safe\n\n Wait, let me re-check the grid image one more time to be absolutely sure about the holes.\n Row 0: S, F, F, F, F (All safe",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go right -> go right -> go down -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0028_500036.jpg"
+  },
+  {
+    "sample_index": 29,
+    "raw_output": "<think>\n1.  **Analyze the grid:**\n    *   Size: 4 rows x 5 columns.\n    *   Start (S): (0, 0) - Top-left corner.\n    *   Goal (G): (3, 4) - Bottom-right corner.\n    *   Holes (H):\n        *   (2,",
+    "clean_output": "<think>\n1. **Analyze the grid:**\n * Size: 4 rows x 5 columns.\n * Start (S): (0, 0) - Top-left corner.\n * Goal (G): (3, 4) - Bottom-right corner.\n * Holes (H):\n * (2,",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go right -> go right -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0029_500037.jpg"
+  },
+  {
+    "sample_index": 30,
+    "raw_output": "<think>\nThe grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at:\n  - (1, 1)\n  - (2, 2)\n  - (3, 0)",
+    "clean_output": "<think>\nThe grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at:\n - (1, 1)\n - (2, 2)\n - (3, 0)",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0030_500038.jpg"
+  },
+  {
+    "sample_index": 31,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n1.  **Grid Layout (Row, Column):**\n    *   (0,0): S (Start)\n    *   (0,1): H (Hole)\n    *",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n1. **Grid Layout (Row, Column):**\n * (0,0): S (Start)\n * (0,1): H (Hole)\n *",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go right -> go right -> go down -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0031_500039.jpg"
+  },
+  {
+    "sample_index": 32,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the tiles:\n\n1.  **Identify the Grid Layout:**\n    *   The grid is 4 rows by 5 columns.\n    *   Start (S) is at (0, 0) (top-left",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the tiles:\n\n1. **Identify the Grid Layout:**\n * The grid is 4 rows by 5 columns.\n * Start (S) is at (0, 0) (top-left",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go right -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0032_500040.jpg"
+  },
+  {
+    "sample_index": 33,
+    "raw_output": "To find a safe path from the start (S) to the goal (G), we first map the grid coordinates (row, column) and identify the locations of the holes (H).\n\n1.  **Grid Mapping:**\n    *   The grid is 4 rows by 5 columns.\n    *   Start (S): (0, 0)\n    *   Goal",
+    "clean_output": "To find a safe path from the start (S) to the goal (G), we first map the grid coordinates (row, column) and identify the locations of the holes (H).\n\n1. **Grid Mapping:**\n * The grid is 4 rows by 5 columns.\n * Start (S): (0, 0)\n * Goal",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go down -> go right -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0033_500042.jpg"
+  },
+  {
+    "sample_index": 34,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (1, 2), (1, 4), (2, 1), and (3, 1).\n- Safe tiles",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (1, 2), (1, 4), (2, 1), and (3, 1).\n- Safe tiles",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go up -> go right -> go right -> go down -> go down -> go down -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0034_500043.jpg"
+  },
+  {
+    "sample_index": 35,
+    "raw_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n1.  **Grid Layout (4 rows x 5 columns):**\n    *   Start (S): (0, 0) - Top-left corner.\n    *   Goal (G): (3, 4)",
+    "clean_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n1. **Grid Layout (4 rows x 5 columns):**\n * Start (S): (0, 0) - Top-left corner.\n * Goal (G): (3, 4)",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0035_500044.jpg"
+  },
+  {
+    "sample_index": 36,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the coordinates of the holes (H) and the safe frozen tiles (F).\n\n**Grid Analysis:**\n- **Start (S):** (0, 0) - Top-left corner.\n- **Goal (G):** (3",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the coordinates of the holes (H) and the safe frozen tiles (F).\n\n**Grid Analysis:**\n- **Start (S):** (0, 0) - Top-left corner.\n- **Goal (G):** (3",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go right -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0036_500045.jpg"
+  },
+  {
+    "sample_index": 37,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the positions of the start, goal, and holes (H).\n\n1.  **Identify the grid coordinates:**\n    *   The grid is 4 rows by 5 columns.\n    *   Start (S) is at (0, ",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the positions of the start, goal, and holes (H).\n\n1. **Identify the grid coordinates:**\n * The grid is 4 rows by 5 columns.\n * Start (S) is at (0,",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0037_500046.jpg"
+  },
+  {
+    "sample_index": 38,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n1.  **Identify the grid layout:**\n    *   Row 0: (0,0) S, (0,1) H, (0,2) F, (0,3)",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n1. **Identify the grid layout:**\n * Row 0: (0,0) S, (0,1) H, (0,2) F, (0,3)",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go right -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0038_500047.jpg"
+  },
+  {
+    "sample_index": 39,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- There is a hole (H) at (1,2).\n- All other tiles are frozen (F).\n\nTo find a safe path from (0,0) to (3,",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- There is a hole (H) at (1,2).\n- All other tiles are frozen (F).\n\nTo find a safe path from (0,0) to (3,",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go right -> go right -> go down -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0039_500048.jpg"
+  },
+  {
+    "sample_index": 40,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\nStart (S) is at (0,0).\nGoal (G) is at (3,4).\nHoles (H) are at (0,2), (2,4), (3,0), and (3,1).\nSafe tiles (F) are all others.\n\nLet'",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\nStart (S) is at (0,0).\nGoal (G) is at (3,4).\nHoles (H) are at (0,2), (2,4), (3,0), and (3,1).\nSafe tiles (F) are all others.\n\nLet'",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go down -> go right -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0040_500049.jpg"
+  },
+  {
+    "sample_index": 41,
+    "raw_output": "To find a safe path from the start (S) to the goal (G), let's first map out the grid coordinates (row, column) and identify the safe tiles (F) and the holes (H).\n\n- **Grid Layout (4x5):**\n  - (0,0): S (Start)\n  - (0,1): H (Hole)",
+    "clean_output": "To find a safe path from the start (S) to the goal (G), let's first map out the grid coordinates (row, column) and identify the safe tiles (F) and the holes (H).\n\n- **Grid Layout (4x5):**\n - (0,0): S (Start)\n - (0,1): H (Hole)",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0041_500050.jpg"
+  },
+  {
+    "sample_index": 42,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, let's first identify the coordinates of the tiles, where (row, col) starts from (0,0) at the top-left.\n\n1.  **Identify the grid layout:**\n    *   (0,0): Start",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, let's first identify the coordinates of the tiles, where (row, col) starts from (0,0) at the top-left.\n\n1. **Identify the grid layout:**\n * (0,0): Start",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0042_500052.jpg"
+  },
+  {
+    "sample_index": 43,
+    "raw_output": "<think>\nThe grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 4), (1, 2), and (1, 3).\n- All other tiles are Frozen (F) and safe",
+    "clean_output": "<think>\nThe grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 4), (1, 2), and (1, 3).\n- All other tiles are Frozen (F) and safe",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0043_500053.jpg"
+  },
+  {
+    "sample_index": 44,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the coordinates of the start, goal, and holes (H).\n\n1.  **Identify Grid Coordinates:**\n    *   The grid has 4 rows (0 to 3) and 5 columns (0 to 4).",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the coordinates of the start, goal, and holes (H).\n\n1. **Identify Grid Coordinates:**\n * The grid has 4 rows (0 to 3) and 5 columns (0 to 4).",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go right -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0044_500055.jpg"
+  },
+  {
+    "sample_index": 45,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of all elements:\n- **Start (S):** Located at (0, 0) (top-left corner).\n- **Goal (G):** Located at (3, 4) (bottom-",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of all elements:\n- **Start (S):** Located at (0, 0) (top-left corner).\n- **Goal (G):** Located at (3, 4) (bottom-",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go down -> go down -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0045_500057.jpg"
+  },
+  {
+    "sample_index": 46,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the coordinates of the key elements:\n- **Start (S):** (0, 0) - Top-left corner.\n- **Goal (G):** (3, 4) - Bottom-right corner.\n-",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the coordinates of the key elements:\n- **Start (S):** (0, 0) - Top-left corner.\n- **Goal (G):** (3, 4) - Bottom-right corner.\n-",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0046_500058.jpg"
+  },
+  {
+    "sample_index": 47,
+    "raw_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n1.  **Grid Layout (4 rows x 5 columns):**\n    *   Start (S): (0, 0) - Top-left corner.\n    *   Goal (G): (3,",
+    "clean_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n1. **Grid Layout (4 rows x 5 columns):**\n * Start (S): (0, 0) - Top-left corner.\n * Goal (G): (3,",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go right -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0047_500059.jpg"
+  },
+  {
+    "sample_index": 48,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 4), (1, 0), (2, 2), (2, 3), (3,",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 4), (1, 0), (2, 2), (2, 3), (3,",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go right -> go right -> go right -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0048_500060.jpg"
+  },
+  {
+    "sample_index": 49,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of the holes (H) and the safe frozen tiles (F).\n\n1.  **Identify the Grid Layout:**\n    *   **Start (S):** (0, 0) - Top-left corner.\n    *",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of the holes (H) and the safe frozen tiles (F).\n\n1. **Identify the Grid Layout:**\n * **Start (S):** (0, 0) - Top-left corner.\n *",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go down -> go right -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0049_500061.jpg"
+  },
+  {
+    "sample_index": 50,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 1), (1, 3), (1, 4), (3, 0), and (3,",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 1), (1, 3), (1, 4), (3, 0), and (3,",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go right -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0050_500062.jpg"
+  },
+  {
+    "sample_index": 51,
+    "raw_output": "<think>\nThe grid is 4 rows by 5 columns.\nThe start (S) is at (0, 0).\nThe goal (G) is at (3, 4).\nThere is a hole (H) at (3, 2).\nAll other tiles are frozen (F) and safe to walk on.\n\nTo find a safe path",
+    "clean_output": "<think>\nThe grid is 4 rows by 5 columns.\nThe start (S) is at (0, 0).\nThe goal (G) is at (3, 4).\nThere is a hole (H) at (3, 2).\nAll other tiles are frozen (F) and safe to walk on.\n\nTo find a safe path",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0051_500063.jpg"
+  },
+  {
+    "sample_index": 52,
+    "raw_output": "think>go right -> go down -> go right -> go right -> go right -> go down -> go down</answer>\n    *   Wait, let me re-verify the grid one more time.\n    *   Row 0: S, F, H, H, F\n    *   Row 1: F, F, F, F, F\n    *   Row",
+    "clean_output": "think>go right -> go down -> go right -> go right -> go right -> go down -> go down</answer>\n * Wait, let me re-verify the grid one more time.\n * Row 0: S, F, H, H, F\n * Row 1: F, F, F, F, F\n * Row",
+    "predicted_answer": "go right -> go down -> go right -> go right -> go right -> go down -> go down",
+    "reference_answer": "go down -> go right -> go right -> go right -> go down -> go right -> go down",
+    "simulation": {
+      "status": "reached_goal",
+      "reason": "step 7: down -> (3, 4)",
+      "trajectory": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": true,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0052_500064.jpg"
+  },
+  {
+    "sample_index": 53,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the coordinates of the start, goal, and holes (H).\n\n1.  **Identify the grid coordinates:**\n    *   The grid has 4 rows (0 to 3) and 5 columns (0 to 4).\n    *",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the coordinates of the start, goal, and holes (H).\n\n1. **Identify the grid coordinates:**\n * The grid has 4 rows (0 to 3) and 5 columns (0 to 4).\n *",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go right -> go down -> go right -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0053_500065.jpg"
+  },
+  {
+    "sample_index": 54,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (0,2), (1,0), (1,2), (1,4), and (2,2).\n- Safe tiles",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (0,2), (1,0), (1,2), (1,4), and (2,2).\n- Safe tiles",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go down -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0054_500067.jpg"
+  },
+  {
+    "sample_index": 55,
+    "raw_output": "<answer>go down -> go right -> go down -> go down -> go right -> go right -> go right</answer>",
+    "clean_output": "<answer>go down -> go right -> go down -> go down -> go right -> go right -> go right</answer>",
+    "predicted_answer": "go down -> go right -> go down -> go down -> go right -> go right -> go right",
+    "reference_answer": "go down -> go right -> go down -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "reached_goal",
+      "reason": "step 7: right -> (3, 4)",
+      "trajectory": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "exact_match": true,
+    "reached_goal": true,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0055_500068.jpg"
+  },
+  {
+    "sample_index": 56,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, let's first identify the coordinates of the start, goal, and holes (H).\n\n1.  **Identify the grid coordinates:**\n    *   The grid has 4 rows (0 to 3) and 5 columns (0 to 4).",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, let's first identify the coordinates of the start, goal, and holes (H).\n\n1. **Identify the grid coordinates:**\n * The grid has 4 rows (0 to 3) and 5 columns (0 to 4).",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go down -> go right -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0056_500070.jpg"
+  },
+  {
+    "sample_index": 57,
+    "raw_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n1.  **Grid Layout (4 rows x 5 columns):**\n    *   Row 0: (0,0)S, (0,1)F, (0,2)F,",
+    "clean_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n1. **Grid Layout (4 rows x 5 columns):**\n * Row 0: (0,0)S, (0,1)F, (0,2)F,",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go right -> go down -> go down -> go down -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0057_500072.jpg"
+  },
+  {
+    "sample_index": 58,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at:\n  - (0, 1)\n  - (0, 3)\n  - (1, 2)",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at:\n - (0, 1)\n - (0, 3)\n - (1, 2)",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go right -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0058_500073.jpg"
+  },
+  {
+    "sample_index": 59,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the holes (H) and the safe frozen tiles (F).\n\n**Grid Layout:**\n- Row 0: (0,0)S, (0,1)F, (0,2)F",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the holes (H) and the safe frozen tiles (F).\n\n**Grid Layout:**\n- Row 0: (0,0)S, (0,1)F, (0,2)F",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go right -> go right -> go right -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0059_500074.jpg"
+  },
+  {
+    "sample_index": 60,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 3), (3, 0), and (3, 3).\n- Safe tiles (F) are",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 3), (3, 0), and (3, 3).\n- Safe tiles (F) are",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go right -> go down -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0060_500075.jpg"
+  },
+  {
+    "sample_index": 61,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of the holes (H) and the safe frozen tiles (F).\n\n1.  **Identify the grid coordinates (row, column):**\n    *   Start (S): (0, 0) - Top-left corner",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of the holes (H) and the safe frozen tiles (F).\n\n1. **Identify the grid coordinates (row, column):**\n * Start (S): (0, 0) - Top-left corner",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go right -> go right -> go down -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0061_500077.jpg"
+  },
+  {
+    "sample_index": 62,
+    "raw_output": "<think>\nThe grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Hole (H) is at (1, 1).\n- All other tiles are Frozen (F).\n\nTo find a safe path from (0, 0",
+    "clean_output": "<think>\nThe grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Hole (H) is at (1, 1).\n- All other tiles are Frozen (F).\n\nTo find a safe path from (0, 0",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go down -> go right -> go down -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0062_500078.jpg"
+  },
+  {
+    "sample_index": 63,
+    "raw_output": "<think>\nThe grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at: (0, 1), (0, 4), (1, 4), (2, 0), (",
+    "clean_output": "<think>\nThe grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at: (0, 1), (0, 4), (1, 4), (2, 0), (",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go right -> go down -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0063_500079.jpg"
+  },
+  {
+    "sample_index": 64,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the positions of the holes (H) and the safe frozen tiles (F).\n\n1.  **Identify the Grid Layout:**\n    *   Row 0: (0,0) S, (0,1) F, (0,2",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the positions of the holes (H) and the safe frozen tiles (F).\n\n1. **Identify the Grid Layout:**\n * Row 0: (0,0) S, (0,1) F, (0,2",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0064_500080.jpg"
+  },
+  {
+    "sample_index": 65,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of the tiles:\n\n1.  **Grid Layout**:\n    *   **Start (S)**: (0, 0) - Top-left corner.\n    *   **Goal (G)**: (3, 4)",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of the tiles:\n\n1. **Grid Layout**:\n * **Start (S)**: (0, 0) - Top-left corner.\n * **Goal (G)**: (3, 4)",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go down -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0065_500081.jpg"
+  },
+  {
+    "sample_index": 66,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the tiles:\n\n- **Start (S):** (0, 0)\n- **Goal (G):** (3, 4)\n- **Holes (H):** (0, 3), (",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the tiles:\n\n- **Start (S):** (0, 0)\n- **Goal (G):** (3, 4)\n- **Holes (H):** (0, 3), (",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go down -> go right -> go down -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0066_500082.jpg"
+  },
+  {
+    "sample_index": 67,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Start (S):** (0, 0) - Top-left corner.\n- **Goal (G):** (3, 4) - Bottom-right corner.\n-",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Start (S):** (0, 0) - Top-left corner.\n- **Goal (G):** (3, 4) - Bottom-right corner.\n-",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go right -> go down -> go right -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0067_500083.jpg"
+  },
+  {
+    "sample_index": 68,
+    "raw_output": "<think>\n1.  **Analyze the grid:**\n    *   The grid is 4 rows by 5 columns.\n    *   Start (S) is at (0, 0) (top-left).\n    *   Goal (G) is at (3, 4) (bottom-right).\n    *   Holes (H) are at",
+    "clean_output": "<think>\n1. **Analyze the grid:**\n * The grid is 4 rows by 5 columns.\n * Start (S) is at (0, 0) (top-left).\n * Goal (G) is at (3, 4) (bottom-right).\n * Holes (H) are at",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go down -> go right -> go down -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0068_500084.jpg"
+  },
+  {
+    "sample_index": 69,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the positions of the start, goal, and holes (H).\n\n1.  **Identify the Grid Layout:**\n    *   The grid is 4 rows by 5 columns.\n    *   Start (S) is at (",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the positions of the start, goal, and holes (H).\n\n1. **Identify the Grid Layout:**\n * The grid is 4 rows by 5 columns.\n * Start (S) is at (",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go right -> go right -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0069_500086.jpg"
+  },
+  {
+    "sample_index": 70,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\nStart (S) is at (0, 0).\nGoal (G) is at (3, 4).\nHoles (H) are at:\n- (0, 4)\n- (1, 3)\n- (2, 0)\n- (3, 3",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\nStart (S) is at (0, 0).\nGoal (G) is at (3, 4).\nHoles (H) are at:\n- (0, 4)\n- (1, 3)\n- (2, 0)\n- (3, 3",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go down -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0070_500087.jpg"
+  },
+  {
+    "sample_index": 71,
+    "raw_output": "<answer>go right -> go right -> go right -> go right -> go down -> go down -> go down</answer>",
+    "clean_output": "<answer>go right -> go right -> go right -> go right -> go down -> go down -> go down</answer>",
+    "predicted_answer": "go right -> go right -> go right -> go right -> go down -> go down -> go down",
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "reached_goal",
+      "reason": "step 7: down -> (3, 4)",
+      "trajectory": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": true,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0071_500088.jpg"
+  },
+  {
+    "sample_index": 72,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 3), (1, 2), (1, 4), and (3, 1).\n- All other tiles",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (0, 3), (1, 2), (1, 4), and (3, 1).\n- All other tiles",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go right -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0072_500089.jpg"
+  },
+  {
+    "sample_index": 73,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0) (top-left).\n- Goal (G) is at (3,4) (bottom-right).\n- Holes (H) are at (1,4) and (2,4) (the two tiles directly above the goal).\n- All",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0) (top-left).\n- Goal (G) is at (3,4) (bottom-right).\n- Holes (H) are at (1,4) and (2,4) (the two tiles directly above the goal).\n- All",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go right -> go down -> go down -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0073_500090.jpg"
+  },
+  {
+    "sample_index": 74,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Start (S):** (0, 0) - Top-left corner.\n- **Goal (G):** (3, 4) - Bottom-right corner.\n",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Start (S):** (0, 0) - Top-left corner.\n- **Goal (G):** (3, 4) - Bottom-right corner.",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0074_500091.jpg"
+  },
+  {
+    "sample_index": 75,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of all tiles and the locations of the holes (H).\n\n1.  **Grid Layout and Coordinates:**\n    *   The grid has 4 rows (0 to 3) and 5 columns (0 to 4).",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of all tiles and the locations of the holes (H).\n\n1. **Grid Layout and Coordinates:**\n * The grid has 4 rows (0 to 3) and 5 columns (0 to 4).",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go right -> go down -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0075_500092.jpg"
+  },
+  {
+    "sample_index": 76,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (1, 3), (2, 0), (2, 2), and (3, 3).\n- Safe tiles",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (1, 3), (2, 0), (2, 2), and (3, 3).\n- Safe tiles",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0076_500093.jpg"
+  },
+  {
+    "sample_index": 77,
+    "raw_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n1.  **Grid Layout (4 rows x 5 columns):**\n    *   (0,0): S (Start)\n    *   (0,1), (0,2), (0,3),",
+    "clean_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n1. **Grid Layout (4 rows x 5 columns):**\n * (0,0): S (Start)\n * (0,1), (0,2), (0,3),",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go down -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0077_500094.jpg"
+  },
+  {
+    "sample_index": 78,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the start, goal, and holes (H).\n\n1.  **Identify Grid Coordinates:**\n    *   The grid is 4 rows by 5 columns.\n    *   Start (S): (0, 0) -",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, we first identify the coordinates of the start, goal, and holes (H).\n\n1. **Identify Grid Coordinates:**\n * The grid is 4 rows by 5 columns.\n * Start (S): (0, 0) -",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go right -> go down -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0078_500095.jpg"
+  },
+  {
+    "sample_index": 79,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Grid Layout (Row, Column):**\n  - (0,0): S (Start)\n  - (0,1): F (Frozen)\n  - (0,",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Grid Layout (Row, Column):**\n - (0,0): S (Start)\n - (0,1): F (Frozen)\n - (0,",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go down -> go right -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0079_500096.jpg"
+  },
+  {
+    "sample_index": 80,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Start (S):** (0, 0) - Top-left corner\n- **Goal (G):** (3, 4) - Bottom-right corner\n- **H",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Start (S):** (0, 0) - Top-left corner\n- **Goal (G):** (3, 4) - Bottom-right corner\n- **H",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go down -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0080_500097.jpg"
+  },
+  {
+    "sample_index": 81,
+    "raw_output": "think>To find a safe path from the start (S) at the top-left corner (0,0) to the goal (G) at the bottom-right corner (3,4), we must avoid the holes (H) located at (2,1), (2,3), (3,0), and (3,2).\n\n1.  **Start at (0,",
+    "clean_output": "think>To find a safe path from the start (S) at the top-left corner (0,0) to the goal (G) at the bottom-right corner (3,4), we must avoid the holes (H) located at (2,1), (2,3), (3,0), and (3,2).\n\n1. **Start at (0,",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go down -> go up -> go down -> go up -> go right -> go right -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0081_500098.jpg"
+  },
+  {
+    "sample_index": 82,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of the start, goal, and holes (H).\n\n1.  **Identify Grid Coordinates:**\n    *   The grid has 4 rows (0 to 3) and 5 columns (0 to 4).\n",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, we first identify the positions of the start, goal, and holes (H).\n\n1. **Identify Grid Coordinates:**\n * The grid has 4 rows (0 to 3) and 5 columns (0 to 4).",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go down -> go right -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0082_500099.jpg"
+  },
+  {
+    "sample_index": 83,
+    "raw_output": "<think>\n1.  **Analyze the grid:**\n    *   Size: 4 rows x 5 columns.\n    *   Start (S): (0, 0) - Top-left corner.\n    *   Goal (G): (3, 4) - Bottom-right corner.\n    *   Holes (H):\n        *   (0",
+    "clean_output": "<think>\n1. **Analyze the grid:**\n * Size: 4 rows x 5 columns.\n * Start (S): (0, 0) - Top-left corner.\n * Goal (G): (3, 4) - Bottom-right corner.\n * Holes (H):\n * (0",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go right -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0083_500100.jpg"
+  },
+  {
+    "sample_index": 84,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (2, 0), (2, 1), (3, 1), and (3, 2).\n- All other",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H) are at (2, 0), (2, 1), (3, 1), and (3, 2).\n- All other",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go right -> go down -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0084_500101.jpg"
+  },
+  {
+    "sample_index": 85,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (2,0), (2,1), and (3,2).\n- All other tiles are Frozen (F) and safe to walk on.\n\nLet",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (2,0), (2,1), and (3,2).\n- All other tiles are Frozen (F) and safe to walk on.\n\nLet",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go right -> go down -> go right -> go down -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0085_500102.jpg"
+  },
+  {
+    "sample_index": 86,
+    "raw_output": "think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (1,1), (1,4), (2,4), and (3,0).\n\nLet's trace a safe path:\n1. Start",
+    "clean_output": "think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (1,1), (1,4), (2,4), and (3,0).\n\nLet's trace a safe path:\n1. Start",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0086_500103.jpg"
+  },
+  {
+    "sample_index": 87,
+    "raw_output": "<think>\nThe grid is 4 rows by 5 columns.\nThe start (S) is at (0,0) (top-left).\nThe goal (G) is at (3,4) (bottom-right).\nUpon examining the image, all tiles between the start and the goal appear to be frozen (F) tiles, as they all share the same snow texture",
+    "clean_output": "<think>\nThe grid is 4 rows by 5 columns.\nThe start (S) is at (0,0) (top-left).\nThe goal (G) is at (3,4) (bottom-right).\nUpon examining the image, all tiles between the start and the goal appear to be frozen (F) tiles, as they all share the same snow texture",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go right -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0087_500104.jpg"
+  },
+  {
+    "sample_index": 88,
+    "raw_output": "<think>\n*   The grid is 4 rows by 5 columns.\n    *   Start (S) is at (0, 0) - top-left corner.\n    *   Goal (G) is at (3, 4) - bottom-right corner.\n    *   Holes (H) are at:\n        *   (0, ",
+    "clean_output": "<think>\n* The grid is 4 rows by 5 columns.\n * Start (S) is at (0, 0) - top-left corner.\n * Goal (G) is at (3, 4) - bottom-right corner.\n * Holes (H) are at:\n * (0,",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go right -> go right -> go right -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0088_500105.jpg"
+  },
+  {
+    "sample_index": 89,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Row 0: (0,0) is Start (S), (0,1) is Frozen (F), (0,2) is Hole (H), (0,3) is Frozen (F), (0,4) is Frozen (F).\n- Row 1: (1,0",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Row 0: (0,0) is Start (S), (0,1) is Frozen (F), (0,2) is Hole (H), (0,3) is Frozen (F), (0,4) is Frozen (F).\n- Row 1: (1,0",
+    "predicted_answer": null,
+    "reference_answer": "fail to find a valid path",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0089_500106.jpg"
+  },
+  {
+    "sample_index": 90,
+    "raw_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n- The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H)",
+    "clean_output": "To find a safe path from the start (S) to the goal (G), we first identify the grid coordinates and the locations of the holes (H).\n\n- The grid is 4 rows by 5 columns.\n- Start (S) is at (0, 0).\n- Goal (G) is at (3, 4).\n- Holes (H)",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go down -> go down -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0090_500108.jpg"
+  },
+  {
+    "sample_index": 91,
+    "raw_output": "",
+    "clean_output": "",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0091_500109.jpg"
+  },
+  {
+    "sample_index": 92,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, let's first identify the coordinates of the holes (H) and the safe frozen tiles (F).\n\n1.  **Grid Layout Analysis:**\n    *   The grid is 4 rows by 5 columns.\n    *   Start (S)",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in this 4x5 FrozenLake grid, let's first identify the coordinates of the holes (H) and the safe frozen tiles (F).\n\n1. **Grid Layout Analysis:**\n * The grid is 4 rows by 5 columns.\n * Start (S)",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go right -> go right -> go right -> go down -> go down",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0092_500110.jpg"
+  },
+  {
+    "sample_index": 93,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (1,1), (2,4), and (3,0).\n- Safe tiles (F) are all others.\n\nLet's trace",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (1,1), (2,4), and (3,0).\n- Safe tiles (F) are all others.\n\nLet's trace",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go down -> go down -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0093_500111.jpg"
+  },
+  {
+    "sample_index": 94,
+    "raw_output": "",
+    "clean_output": "",
+    "predicted_answer": null,
+    "reference_answer": "go right -> go right -> go down -> go down -> go down -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0094_500112.jpg"
+  },
+  {
+    "sample_index": 95,
+    "raw_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (1,1), (1,3), and (2,2).\n- All other tiles are Frozen (F).\n\nLet's trace a safe path",
+    "clean_output": "<think>The grid is 4 rows by 5 columns.\n- Start (S) is at (0,0).\n- Goal (G) is at (3,4).\n- Holes (H) are at (1,1), (1,3), and (2,2).\n- All other tiles are Frozen (F).\n\nLet's trace a safe path",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go down -> go right -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0095_500113.jpg"
+  },
+  {
+    "sample_index": 96,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Grid Layout (4 rows x 5 columns):**\n  - Row 0: (0,0) S, (0,1) H, (0,2) H, (0",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Grid Layout (4 rows x 5 columns):**\n - Row 0: (0,0) S, (0,1) H, (0,2) H, (0",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go right -> go down -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0096_500116.jpg"
+  },
+  {
+    "sample_index": 97,
+    "raw_output": "<think>\n1.  **Analyze the grid:**\n    *   Size: 4 rows x 5 columns.\n    *   Start (S): (0, 0) - Top-left corner.\n    *   Goal (G): (3, 4) - Bottom-right corner.\n    *   Holes (H):\n        *   (",
+    "clean_output": "<think>\n1. **Analyze the grid:**\n * Size: 4 rows x 5 columns.\n * Start (S): (0, 0) - Top-left corner.\n * Goal (G): (3, 4) - Bottom-right corner.\n * Holes (H):\n * (",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go right -> go right -> go down -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0097_500117.jpg"
+  },
+  {
+    "sample_index": 98,
+    "raw_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Grid Size:** 4 rows (0 to 3) and 5 columns (0 to 4).\n- **Start (S):** (0, 0)\n- **",
+    "clean_output": "To find a safe path from the start (S) to the goal (G) in the 4x5 FrozenLake grid, let's first identify the coordinates of the tiles:\n\n- **Grid Size:** 4 rows (0 to 3) and 5 columns (0 to 4).\n- **Start (S):** (0, 0)\n- **",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go right -> go right -> go down -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0098_500118.jpg"
+  },
+  {
+    "sample_index": 99,
+    "raw_output": "thought><answer>go right -> go right -> go right -> go down -> go down -> go right -> go down</answer>",
+    "clean_output": "thought><answer>go right -> go right -> go right -> go down -> go down -> go right -> go down</answer>",
+    "predicted_answer": "go right -> go right -> go right -> go down -> go down -> go right -> go down",
+    "reference_answer": "go right -> go right -> go right -> go down -> go down -> go down -> go right",
+    "simulation": {
+      "status": "reached_goal",
+      "reason": "step 7: down -> (3, 4)",
+      "trajectory": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": true,
+    "image_path": "/root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/test_images/0099_500119.jpg"
+  }
+]

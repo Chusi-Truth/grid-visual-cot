@@ -1,0 +1,188 @@
+{
+  "small_id_shift": {
+    "num_samples": 50,
+    "sizes": {
+      "3x5": {
+        "n": 10,
+        "reached_goal": 8,
+        "reached_goal_acc": 0.8
+      },
+      "3x6": {
+        "n": 10,
+        "reached_goal": 6,
+        "reached_goal_acc": 0.6
+      },
+      "4x4": {
+        "n": 10,
+        "reached_goal": 4,
+        "reached_goal_acc": 0.4
+      },
+      "5x3": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "6x3": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      }
+    }
+  },
+  "near_ood": {
+    "num_samples": 50,
+    "sizes": {
+      "4x6": {
+        "n": 10,
+        "reached_goal": 5,
+        "reached_goal_acc": 0.5
+      },
+      "4x7": {
+        "n": 10,
+        "reached_goal": 3,
+        "reached_goal_acc": 0.3
+      },
+      "5x5": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x6": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x7": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      }
+    }
+  },
+  "merged_small_plus_near_ood": {
+    "num_samples": 100,
+    "sizes": {
+      "3x5": {
+        "n": 10,
+        "reached_goal": 8,
+        "reached_goal_acc": 0.8
+      },
+      "3x6": {
+        "n": 10,
+        "reached_goal": 6,
+        "reached_goal_acc": 0.6
+      },
+      "4x4": {
+        "n": 10,
+        "reached_goal": 4,
+        "reached_goal_acc": 0.4
+      },
+      "4x6": {
+        "n": 10,
+        "reached_goal": 5,
+        "reached_goal_acc": 0.5
+      },
+      "4x7": {
+        "n": 10,
+        "reached_goal": 3,
+        "reached_goal_acc": 0.3
+      },
+      "5x3": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "5x5": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x6": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x7": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "6x3": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      }
+    }
+  },
+  "id_4x5_holdout50": {
+    "num_samples": 50,
+    "source": "eval/2026-03-30_text_state_desc_2k_8k_run2_4x5_reachable100_first50/results.json",
+    "sizes": {
+      "4x5": {
+        "n": 50,
+        "reached_goal": 31,
+        "reached_goal_acc": 0.62
+      }
+    }
+  },
+  "merged_4x5_small_plus_near_ood": {
+    "num_samples": 150,
+    "sizes": {
+      "4x5": {
+        "n": 50,
+        "reached_goal": 31,
+        "reached_goal_acc": 0.62
+      },
+      "3x5": {
+        "n": 10,
+        "reached_goal": 8,
+        "reached_goal_acc": 0.8
+      },
+      "3x6": {
+        "n": 10,
+        "reached_goal": 6,
+        "reached_goal_acc": 0.6
+      },
+      "4x4": {
+        "n": 10,
+        "reached_goal": 4,
+        "reached_goal_acc": 0.4
+      },
+      "5x3": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "6x3": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "4x6": {
+        "n": 10,
+        "reached_goal": 5,
+        "reached_goal_acc": 0.5
+      },
+      "4x7": {
+        "n": 10,
+        "reached_goal": 3,
+        "reached_goal_acc": 0.3
+      },
+      "5x5": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x6": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x7": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+small_id_shift OOD Eval Set
+Dataset: eval/2026-03-29_size_generalization_3splits/small_id_shift/grid_cot_test_small_id_shift.json
+Samples: 100
+Sizes: 4x4, 3x5, 5x3, 3x6, 6x3
+SizeDistribution: {"3x5": 20, "3x6": 20, "4x4": 20, "5x3": 20, "6x3": 20}

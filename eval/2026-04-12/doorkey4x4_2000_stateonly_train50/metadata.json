@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-04-12T10:22:30.858714+08:00",
+  "model_path": "/root/autodl-tmp/visual-cot_output/minigrid4x4_doorkey_2000_stateonly_merged",
+  "dataset_path": "dataset/minigrid4x4_doorkey_2000.json",
+  "max_new_tokens": 4096,
+  "batch_size": 5,
+  "environment": "minigrid"
+}

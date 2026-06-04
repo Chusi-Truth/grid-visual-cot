@@ -1,0 +1,192 @@
+{
+  "id_4x5_reachable100": {
+    "name": "id_4x5_reachable100",
+    "num_samples": 100,
+    "sizes": {
+      "4x5": {
+        "n": 100,
+        "reached_goal": 14,
+        "reached_goal_acc": 0.14
+      }
+    }
+  },
+  "small_id_shift": {
+    "name": "small_id_shift",
+    "num_samples": 50,
+    "sizes": {
+      "4x4": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "3x5": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x3": {
+        "n": 10,
+        "reached_goal": 2,
+        "reached_goal_acc": 0.2
+      },
+      "3x6": {
+        "n": 10,
+        "reached_goal": 2,
+        "reached_goal_acc": 0.2
+      },
+      "6x3": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      }
+    }
+  },
+  "near_ood": {
+    "name": "near_ood",
+    "num_samples": 50,
+    "sizes": {
+      "4x6": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "4x7": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "5x5": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x6": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "5x7": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      }
+    }
+  },
+  "merged_small_plus_near_ood": {
+    "name": "merged_small_plus_near_ood",
+    "num_samples": 100,
+    "sizes": {
+      "4x4": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "3x5": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x3": {
+        "n": 10,
+        "reached_goal": 2,
+        "reached_goal_acc": 0.2
+      },
+      "3x6": {
+        "n": 10,
+        "reached_goal": 2,
+        "reached_goal_acc": 0.2
+      },
+      "6x3": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "4x6": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "4x7": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "5x5": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x6": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "5x7": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      }
+    }
+  },
+  "merged_4x5_small_plus_near_ood": {
+    "name": "merged_4x5_small_plus_near_ood",
+    "num_samples": 200,
+    "sizes": {
+      "4x5": {
+        "n": 100,
+        "reached_goal": 14,
+        "reached_goal_acc": 0.14
+      },
+      "4x4": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "3x5": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x3": {
+        "n": 10,
+        "reached_goal": 2,
+        "reached_goal_acc": 0.2
+      },
+      "3x6": {
+        "n": 10,
+        "reached_goal": 2,
+        "reached_goal_acc": 0.2
+      },
+      "6x3": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "4x6": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "4x7": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "5x5": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      },
+      "5x6": {
+        "n": 10,
+        "reached_goal": 1,
+        "reached_goal_acc": 0.1
+      },
+      "5x7": {
+        "n": 10,
+        "reached_goal": 0,
+        "reached_goal_acc": 0.0
+      }
+    }
+  }
+}

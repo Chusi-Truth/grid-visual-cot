@@ -1,0 +1,19 @@
+API Baseline Eval Summary
+DateTime: 2026-03-30T15:07:42.263956+08:00
+Model: gemini-3.1-pro-preview
+APIMode: chat
+APIBaseURL: https://aihubmix.com/v1
+Dataset: eval/2026-03-27_reachable_holdout100/grid_cot_test_reachable_100.json
+Samples: 3
+ReachedGoalAccuracy: 1.0000
+ExactMatchAccuracy: 0.0000
+ReachedGoalCount: 3
+ExactMatchCount: 0
+NoAnswerCount: 0
+DeclaredNoPathCount: 0
+ElapsedSeconds: 66.08
+PromptTokens: 3900
+CompletionTokens: 4694
+StatusCounts: {"reached_goal": 3}
+
+API baseline eval on provided dataset.

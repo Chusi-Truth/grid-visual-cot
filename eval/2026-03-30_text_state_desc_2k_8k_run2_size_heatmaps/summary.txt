@@ -1,0 +1,4 @@
+Run2 Size Heatmaps
+small results: eval/2026-03-30_text_state_desc_2k_8k_run2_small_ood_eval/results.json
+near results: eval/2026-03-30_text_state_desc_2k_8k_run2_near_ood_eval/results.json
+metrics: reached_goal_acc (cell-wise by map size)

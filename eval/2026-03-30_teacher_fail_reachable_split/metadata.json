@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-30T16:30:18.883552+08:00",
+  "source_dataset": "dataset/grid_cot_teacher_fail_but_reachable_train_320.json",
+  "split_seed": 20260330,
+  "selection_rule": "teacher-fail-but-BFS-reachable subset, random split",
+  "test_dataset": "eval/2026-03-30_teacher_fail_reachable_split/grid_cot_test_teacher_fail_reachable_100.json",
+  "train_remainder_dataset": "dataset/grid_cot_teacher_fail_but_reachable_train_220.json",
+  "counts": {
+    "source": 320,
+    "test": 100,
+    "train_remainder": 220
+  }
+}

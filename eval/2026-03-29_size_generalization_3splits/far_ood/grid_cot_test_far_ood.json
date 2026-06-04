@@ -1,0 +1,2202 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 9 holes I must avoid: (1,4), (1,5), (2,4), (3,0), (3,1), (4,1), (5,1), (5,3), (5,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go right -> go down -> go down -> go right -> go right -> go right -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0000_6x6_seed840000.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840000
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 11 holes I must avoid: (1,0), (1,1), (1,4), (2,0), (4,0), (4,1), (4,2), (5,2), (5,3), (5,4), (5,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go right -> go down -> go down -> go down -> go right -> go down -> go right -> go right -> go right -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0001_6x7_seed840001.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840001
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 8 holes I must avoid: (0,5), (1,1), (2,1), (3,4), (4,3), (4,5), (6,0), (6,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0002_7x6_seed840002.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840002
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 9 holes I must avoid: (0,4), (0,5), (1,0), (1,4), (1,6), (3,2), (4,6), (6,3), (6,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0003_7x7_seed840003.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840003
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 7 holes I must avoid: (0,5), (1,2), (2,1), (2,5), (3,1), (3,5), (5,0).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0004_6x6_seed840004.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840004
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 5 holes I must avoid: (1,4), (2,6), (3,0), (4,2), (5,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go down -> go right -> go right -> go down -> go right -> go right -> go right -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0005_6x7_seed840005.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840005
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 7 holes I must avoid: (1,1), (3,3), (4,0), (4,2), (4,5), (5,0), (6,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go right -> go down -> go down -> go right -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0006_7x6_seed840006.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840006
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 8 holes I must avoid: (0,1), (0,3), (1,1), (1,3), (2,6), (3,0), (3,5), (4,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0007_7x7_seed840007.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840007
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 4 holes I must avoid: (0,5), (2,5), (3,1), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0008_6x6_seed840009.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840009
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 9 holes I must avoid: (0,3), (1,0), (1,1), (2,2), (2,3), (2,5), (3,5), (4,5), (4,6).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go right -> go down -> go right -> go right -> go down -> go down -> go down -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0009_6x7_seed840011.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840011
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 6 holes I must avoid: (0,1), (1,5), (4,4), (5,0), (6,0), (6,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go down -> go right -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0010_7x6_seed840012.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840012
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 9 holes I must avoid: (0,2), (1,2), (1,5), (2,3), (2,4), (4,4), (4,5), (6,1), (6,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0011_7x7_seed840013.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840013
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 6 holes I must avoid: (0,1), (0,4), (0,5), (1,5), (2,2), (3,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0012_6x6_seed840014.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840014
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 6 holes I must avoid: (0,4), (1,5), (2,3), (3,6), (5,0), (5,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0013_6x7_seed840015.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840015
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 6 holes I must avoid: (0,2), (1,4), (2,5), (3,0), (4,4), (4,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0014_7x6_seed840016.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840016
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 10 holes I must avoid: (1,4), (2,6), (3,1), (3,3), (4,1), (4,3), (4,6), (5,1), (5,2), (5,6).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0015_7x7_seed840017.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840017
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 3 holes I must avoid: (1,2), (3,5), (4,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0016_6x6_seed840018.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840018
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 8 holes I must avoid: (0,2), (0,6), (2,0), (2,6), (4,1), (4,4), (4,6), (5,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go down -> go down -> go right -> go right -> go right -> go right -> go down -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0017_6x7_seed840019.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840019
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 9 holes I must avoid: (0,1), (1,1), (1,3), (3,4), (4,2), (4,3), (4,5), (6,0), (6,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0018_7x6_seed840021.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840021
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 8 holes I must avoid: (1,3), (3,1), (3,5), (3,6), (4,3), (4,4), (6,1), (6,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0019_7x7_seed840022.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840022
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 7 holes I must avoid: (0,4), (1,3), (3,4), (4,4), (4,5), (5,0), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0020_6x6_seed840023.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840023
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 2 holes I must avoid: (2,0), (4,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0021_6x7_seed840024.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840024
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 6 holes I must avoid: (0,2), (1,3), (1,5), (2,1), (5,4), (6,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right -> go down -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0022_7x6_seed840026.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840026
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 5 holes I must avoid: (0,4), (1,0), (1,5), (2,3), (6,0).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0023_7x7_seed840028.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840028
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 5 holes I must avoid: (1,2), (2,0), (2,3), (3,2), (3,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0024_6x6_seed840029.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840029
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 6 holes I must avoid: (1,0), (1,6), (3,1), (3,5), (4,3), (4,6).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go right -> go down -> go down -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0025_6x7_seed840030.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840030
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 8 holes I must avoid: (0,1), (0,3), (3,0), (3,3), (4,2), (5,0), (5,1), (5,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go right -> go right -> go right -> go down -> go down -> go down -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0026_7x6_seed840031.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840031
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 11 holes I must avoid: (0,1), (1,3), (1,5), (1,6), (2,5), (3,0), (3,2), (4,0), (4,2), (5,1), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go right -> go right -> go down -> go down -> go down -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0027_7x7_seed840032.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840032
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 10 holes I must avoid: (0,4), (0,5), (1,1), (2,1), (2,4), (3,0), (3,2), (3,3), (5,0), (5,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go right -> go down -> go right -> go right -> go right -> go down -> go down -> go down -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0028_6x6_seed840034.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840034
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 9 holes I must avoid: (0,5), (2,0), (3,3), (3,5), (4,3), (4,4), (5,0), (5,1), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go down -> go right -> go right -> go right -> go right -> go right -> go down -> go down -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0029_6x7_seed840037.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840037
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 5 holes I must avoid: (0,5), (1,4), (3,2), (5,0), (5,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go down -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0030_7x6_seed840038.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840038
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 5 holes I must avoid: (1,3), (2,3), (3,4), (4,1), (4,6).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0031_7x7_seed840039.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840039
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 7 holes I must avoid: (0,3), (2,1), (2,4), (2,5), (3,3), (4,1), (4,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0032_6x6_seed840040.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840040
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 6 holes I must avoid: (0,2), (0,3), (2,1), (2,4), (3,0), (5,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go right -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0033_6x7_seed840041.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840041
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 9 holes I must avoid: (0,3), (0,5), (1,2), (3,3), (4,0), (4,1), (4,2), (5,2), (6,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go right -> go right -> go right -> go down -> go down -> go down -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0034_7x6_seed840042.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840042
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 11 holes I must avoid: (0,4), (0,6), (1,0), (3,3), (4,3), (4,4), (5,0), (5,2), (5,3), (6,0), (6,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go right -> go right -> go right -> go down -> go right -> go down -> go down -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0035_7x7_seed840043.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840043
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 9 holes I must avoid: (0,3), (0,5), (1,3), (2,3), (3,1), (3,2), (3,3), (4,3), (4,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0036_6x6_seed840046.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840046
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 10 holes I must avoid: (0,1), (0,2), (1,1), (2,5), (3,0), (3,1), (3,3), (4,0), (4,3), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go right -> go right -> go right -> go down -> go down -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0037_6x7_seed840047.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840047
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 8 holes I must avoid: (0,2), (0,3), (1,4), (4,1), (5,3), (5,5), (6,1), (6,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right -> go down -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0038_7x6_seed840051.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840051
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 10 holes I must avoid: (0,3), (0,5), (1,2), (1,3), (2,5), (4,2), (4,4), (4,6), (5,5), (5,6).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0039_7x7_seed840052.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840052
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 6 holes I must avoid: (1,1), (1,2), (1,5), (3,4), (4,3), (5,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0040_6x6_seed840053.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840053
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 8 holes I must avoid: (0,3), (1,0), (1,4), (2,2), (3,2), (3,5), (3,6), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0041_6x7_seed840054.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840054
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 7 holes I must avoid: (0,2), (2,2), (3,2), (3,5), (4,0), (5,0), (6,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go right -> go down -> go down -> go right -> go right -> go right -> go right -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0042_7x6_seed840055.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840055
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 10 holes I must avoid: (0,4), (1,4), (3,0), (3,3), (3,6), (5,0), (5,1), (5,2), (5,3), (5,6).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go down -> go down -> go right -> go right -> go right -> go down -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0043_7x7_seed840056.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840056
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 12 holes I must avoid: (0,5), (1,1), (2,0), (2,2), (2,3), (2,4), (3,1), (4,2), (4,4), (5,0), (5,1), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go right -> go down -> go right -> go right -> go right -> go down -> go down -> go down -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0044_6x6_seed840057.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840057
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 3 holes I must avoid: (3,4), (4,0), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go right -> go down -> go right -> go right -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0045_6x7_seed840058.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840058
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 5 holes I must avoid: (0,5), (1,1), (2,5), (3,2), (6,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0046_7x6_seed840059.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840059
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 12 holes I must avoid: (0,4), (1,5), (2,0), (2,1), (3,5), (3,6), (4,1), (4,4), (4,5), (6,3), (6,4), (6,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go right -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0047_7x7_seed840060.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840060
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 5 holes I must avoid: (0,4), (0,5), (3,0), (3,3), (4,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go down -> go down -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0048_6x6_seed840061.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840061
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 9 holes I must avoid: (0,1), (0,3), (0,4), (1,6), (2,1), (3,6), (4,0), (5,4), (5,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go right -> go down -> go right -> go right -> go right -> go right -> go right -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0049_6x7_seed840062.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840062
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 6 holes I must avoid: (0,4), (3,0), (4,1), (5,0), (5,3), (6,0).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go down -> go right -> go down -> go down -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0050_7x6_seed840063.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840063
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 9 holes I must avoid: (1,6), (2,1), (3,4), (3,6), (4,0), (4,1), (5,2), (5,4), (6,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right -> go right -> go down -> go right -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0051_7x7_seed840064.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840064
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 5 holes I must avoid: (1,0), (1,2), (2,0), (5,1), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0052_6x6_seed840065.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840065
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 5 holes I must avoid: (0,1), (0,4), (1,6), (3,4), (5,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0053_6x7_seed840066.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840066
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 4 holes I must avoid: (0,1), (2,4), (5,0), (5,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go down -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0054_7x6_seed840067.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840067
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 11 holes I must avoid: (0,2), (0,5), (1,4), (2,2), (2,5), (3,2), (4,5), (5,1), (5,5), (6,1), (6,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0055_7x7_seed840068.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840068
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 6 holes I must avoid: (1,0), (1,5), (2,3), (3,1), (5,0), (5,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go right -> go down -> go down -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0056_6x6_seed840069.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840069
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 5 holes I must avoid: (1,0), (1,1), (2,0), (4,4), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go right -> go down -> go down -> go down -> go down -> go right -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0057_6x7_seed840070.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840070
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 5 holes I must avoid: (0,2), (3,2), (5,0), (5,3), (6,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go down -> go right -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0058_7x6_seed840071.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840071
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 7 holes I must avoid: (0,2), (1,2), (2,0), (2,3), (3,3), (4,6), (5,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0059_7x7_seed840072.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840072
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 4 holes I must avoid: (1,1), (1,2), (3,2), (5,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0060_6x6_seed840073.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840073
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 8 holes I must avoid: (0,5), (1,3), (1,4), (2,2), (2,6), (3,0), (4,6), (5,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go down -> go down -> go right -> go right -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0061_6x7_seed840075.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840075
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 9 holes I must avoid: (0,2), (0,5), (1,5), (2,1), (2,2), (2,5), (3,1), (3,2), (6,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0062_7x6_seed840076.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840076
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 5 holes I must avoid: (0,2), (1,1), (1,2), (3,4), (3,6).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0063_7x7_seed840077.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840077
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 5 holes I must avoid: (0,4), (1,2), (3,2), (4,3), (4,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0064_6x6_seed840078.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840078
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 9 holes I must avoid: (0,3), (0,6), (1,0), (1,1), (1,5), (1,6), (2,4), (3,4), (4,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go right -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0065_6x7_seed840079.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840079
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 8 holes I must avoid: (0,2), (0,3), (3,1), (3,3), (3,5), (4,3), (6,1), (6,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0066_7x6_seed840080.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840080
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 11 holes I must avoid: (0,5), (1,1), (1,2), (1,5), (2,4), (2,6), (3,0), (3,3), (3,4), (3,5), (5,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0067_7x7_seed840081.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840081
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 7 holes I must avoid: (0,4), (1,0), (1,5), (2,2), (2,3), (2,5), (4,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0068_6x6_seed840082.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840082
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 6 holes I must avoid: (0,2), (0,5), (1,3), (1,4), (2,4), (4,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0069_6x7_seed840083.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840083
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 9 holes I must avoid: (1,3), (3,3), (3,5), (4,0), (4,1), (4,2), (4,3), (5,2), (5,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go right -> go right -> go right -> go down -> go down -> go right -> go down -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0070_7x6_seed840085.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840085
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 10 holes I must avoid: (0,6), (1,6), (2,0), (2,1), (2,5), (3,2), (4,0), (4,5), (5,3), (5,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go right -> go down -> go right -> go down -> go right -> go right -> go right -> go down -> go down -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0071_7x7_seed840087.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840087
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 9 holes I must avoid: (0,2), (0,3), (0,5), (2,2), (2,3), (4,4), (5,0), (5,1), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0072_6x6_seed840088.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840088
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 5 holes I must avoid: (0,2), (0,5), (4,5), (5,2), (5,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0073_6x7_seed840089.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840089
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 5 holes I must avoid: (3,1), (4,2), (4,4), (5,1), (6,0).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go right -> go down -> go right -> go down -> go down -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0074_7x6_seed840090.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840090
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 11 holes I must avoid: (1,0), (1,4), (1,6), (2,1), (2,3), (3,5), (4,4), (5,2), (5,5), (6,0), (6,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go right -> go right -> go right -> go right -> go down -> go down -> go right -> go down -> go down -> go down -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0075_7x7_seed840091.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840091
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 5 holes I must avoid: (1,3), (1,4), (4,0), (4,3), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go right -> go right -> go right -> go right -> go down -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0076_6x6_seed840092.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840092
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 12 holes I must avoid: (0,1), (0,5), (1,1), (1,6), (2,2), (2,3), (2,5), (2,6), (3,3), (3,4), (5,1), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go right -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0077_6x7_seed840094.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840094
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 7 holes I must avoid: (1,2), (1,5), (2,1), (2,2), (4,5), (5,0), (5,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go down -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0078_7x6_seed840095.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840095
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 7 holes I must avoid: (0,2), (1,0), (1,3), (3,1), (4,0), (4,1), (4,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go right -> go down -> go right -> go down -> go down -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0079_7x7_seed840096.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840096
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 8 holes I must avoid: (0,1), (1,4), (2,3), (3,0), (3,1), (3,2), (4,1), (5,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go right -> go right -> go up -> go right -> go right -> go down -> go down -> go down -> go down -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0080_6x6_seed840097.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840097
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 9 holes I must avoid: (0,2), (1,0), (1,4), (1,6), (2,3), (3,1), (4,2), (5,4), (5,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go right -> go down -> go right -> go down -> go right -> go right -> go right -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0081_6x7_seed840098.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840098
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 8 holes I must avoid: (1,1), (1,3), (2,1), (2,3), (3,2), (4,0), (6,0), (6,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go right -> go down -> go down -> go right -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0082_7x6_seed840100.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840100
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 6 holes I must avoid: (1,3), (2,1), (2,2), (3,3), (4,1), (5,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0083_7x7_seed840101.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840101
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 5 holes I must avoid: (0,2), (1,3), (2,2), (2,5), (3,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0084_6x6_seed840103.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840103
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 4 holes I must avoid: (1,2), (1,4), (4,0), (4,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go right -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0085_6x7_seed840104.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840104
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 14 holes I must avoid: (0,4), (1,0), (1,2), (1,4), (1,5), (3,0), (3,1), (3,2), (4,0), (4,1), (4,4), (5,1), (5,4), (6,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go right -> go right -> go down -> go down -> go down -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0086_7x6_seed840106.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840106
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 11 holes I must avoid: (0,1), (0,2), (0,6), (1,4), (2,0), (2,6), (3,6), (4,0), (4,1), (4,5), (5,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go down -> go down -> go right -> go down -> go down -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0087_7x7_seed840108.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840108
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 4 holes I must avoid: (1,4), (4,2), (4,3), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go right -> go right -> go right -> go right -> go down -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0088_6x6_seed840109.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840109
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 6 holes I must avoid: (1,2), (1,6), (2,0), (3,0), (3,5), (4,4).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0089_6x7_seed840110.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840110
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 8 holes I must avoid: (0,5), (1,0), (2,4), (3,0), (4,0), (4,2), (4,4), (6,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0090_7x6_seed840111.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840111
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 9 holes I must avoid: (1,6), (3,3), (3,4), (3,5), (4,1), (5,0), (5,4), (5,5), (5,6).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go right -> go right -> go down -> go down -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0091_7x7_seed840115.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840115
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 7 holes I must avoid: (0,2), (2,5), (3,2), (3,3), (4,1), (4,5), (5,0).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go right -> go right -> go right -> go down -> go down -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0092_6x6_seed840116.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840116
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 13 holes I must avoid: (0,1), (0,6), (1,2), (1,4), (1,6), (2,1), (2,2), (2,3), (2,6), (3,1), (3,3), (4,2), (5,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go up -> go right -> go right -> go down</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0093_6x7_seed840117.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840117
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 5 holes I must avoid: (0,2), (2,0), (2,1), (2,4), (5,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go right -> go down -> go down -> go down -> go right -> go down -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0094_7x6_seed840118.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840118
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 10 holes I must avoid: (0,1), (0,3), (0,5), (1,2), (2,0), (3,2), (3,4), (4,2), (4,5), (5,5).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0095_7x7_seed840120.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840120
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x6 grid.\nI start at (0, 0) and the goal is at (5, 5).\nThere are 7 holes I must avoid: (0,1), (2,1), (2,2), (3,4), (4,5), (5,0), (5,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0096_6x6_seed840121.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 6,
+      "area": 36,
+      "seed": 840121
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x7 grid.\nI start at (0, 0) and the goal is at (5, 6).\nThere are 2 holes I must avoid: (0,5), (3,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0097_6x7_seed840122.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 6,
+      "cols": 7,
+      "area": 42,
+      "seed": 840122
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x6 grid.\nI start at (0, 0) and the goal is at (6, 5).\nThere are 7 holes I must avoid: (1,0), (1,3), (2,1), (2,3), (3,2), (4,2), (5,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go right -> go right -> go right -> go down -> go down -> go down -> go down -> go down -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0098_7x6_seed840123.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 6,
+      "area": 42,
+      "seed": 840123
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 7x7 grid.\nI start at (0, 0) and the goal is at (6, 6).\nThere are 14 holes I must avoid: (0,1), (0,3), (0,6), (1,2), (1,4), (1,6), (2,1), (2,2), (2,5), (3,2), (3,3), (4,6), (5,5), (6,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go down -> go right -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "eval/2026-03-29_size_generalization_3splits/far_ood/test_images/0099_7x7_seed840124.jpg"
+    ],
+    "meta": {
+      "split": "far_ood",
+      "rows": 7,
+      "cols": 7,
+      "area": 49,
+      "seed": 840124
+    }
+  }
+]

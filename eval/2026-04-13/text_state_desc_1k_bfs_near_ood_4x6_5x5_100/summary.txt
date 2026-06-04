@@ -1,0 +1,8 @@
+MiniGrid DoorKey Eval Summary
+DateTime: 2026-04-13T13:38:28.097097+08:00
+Model: /root/autodl-tmp/visual-cot_output/grid_cot_text_state_desc_1000_bfs_bs4_s2000_merged
+Dataset: eval/2026-04-06/2026-04-06_near_ood_4x6_5x5_50each/near_ood/grid_cot_test_near_ood.json
+TotalSamples: 100
+ReachedGoalAccuracy: 0.0000
+NoAnswer: 21
+StatusCounts: {"stopped_before_goal": 79, "no_answer": 21}

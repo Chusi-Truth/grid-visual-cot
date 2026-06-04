@@ -1,0 +1,108 @@
+{
+  "small": {
+    "3x5": {
+      "samples": 10,
+      "reached_goal_acc": 1.0,
+      "exact_match_acc": 0.2
+    },
+    "3x6": {
+      "samples": 10,
+      "reached_goal_acc": 0.7,
+      "exact_match_acc": 0.1
+    },
+    "4x4": {
+      "samples": 10,
+      "reached_goal_acc": 0.5,
+      "exact_match_acc": 0.0
+    },
+    "5x3": {
+      "samples": 10,
+      "reached_goal_acc": 0.2,
+      "exact_match_acc": 0.0
+    },
+    "6x3": {
+      "samples": 10,
+      "reached_goal_acc": 0.1,
+      "exact_match_acc": 0.0
+    }
+  },
+  "near": {
+    "4x6": {
+      "samples": 10,
+      "reached_goal_acc": 0.4,
+      "exact_match_acc": 0.1
+    },
+    "4x7": {
+      "samples": 10,
+      "reached_goal_acc": 0.4,
+      "exact_match_acc": 0.1
+    },
+    "5x5": {
+      "samples": 10,
+      "reached_goal_acc": 0.2,
+      "exact_match_acc": 0.0
+    },
+    "5x6": {
+      "samples": 10,
+      "reached_goal_acc": 0.1,
+      "exact_match_acc": 0.0
+    },
+    "5x7": {
+      "samples": 10,
+      "reached_goal_acc": 0.0,
+      "exact_match_acc": 0.0
+    }
+  },
+  "small_plus_near": {
+    "3x5": {
+      "samples": 10,
+      "reached_goal_acc": 1.0,
+      "exact_match_acc": 0.2
+    },
+    "3x6": {
+      "samples": 10,
+      "reached_goal_acc": 0.7,
+      "exact_match_acc": 0.1
+    },
+    "4x4": {
+      "samples": 10,
+      "reached_goal_acc": 0.5,
+      "exact_match_acc": 0.0
+    },
+    "4x6": {
+      "samples": 10,
+      "reached_goal_acc": 0.4,
+      "exact_match_acc": 0.1
+    },
+    "4x7": {
+      "samples": 10,
+      "reached_goal_acc": 0.4,
+      "exact_match_acc": 0.1
+    },
+    "5x3": {
+      "samples": 10,
+      "reached_goal_acc": 0.2,
+      "exact_match_acc": 0.0
+    },
+    "5x5": {
+      "samples": 10,
+      "reached_goal_acc": 0.2,
+      "exact_match_acc": 0.0
+    },
+    "5x6": {
+      "samples": 10,
+      "reached_goal_acc": 0.1,
+      "exact_match_acc": 0.0
+    },
+    "5x7": {
+      "samples": 10,
+      "reached_goal_acc": 0.0,
+      "exact_match_acc": 0.0
+    },
+    "6x3": {
+      "samples": 10,
+      "reached_goal_acc": 0.1,
+      "exact_match_acc": 0.0
+    }
+  }
+}

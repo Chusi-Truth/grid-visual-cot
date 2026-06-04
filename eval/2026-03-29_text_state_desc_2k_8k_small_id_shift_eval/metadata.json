@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-29T23:27:31.082334+08:00",
+  "model_path": "/root/autodl-tmp/visual-cot_output/grid_cot_text_state_desc_2k_8k_run1",
+  "dataset_path": "/root/CoVT/visual-cot/eval/2026-03-29_size_generalization_3splits/small_id_shift/grid_cot_test_small_id_shift.json",
+  "max_new_tokens": 3072,
+  "batch_size": 1,
+  "threshold_area": 20,
+  "bucket_rules": {
+    "lt_20": "rows*cols < 20",
+    "eq_20": "rows*cols == 20",
+    "gt_20": "rows*cols > 20"
+  }
+}

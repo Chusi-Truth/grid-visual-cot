@@ -1,0 +1,2 @@
+Teacher-Fail-50 Heatmaps (ReachedGoal only)
+reached_goal_heatmap: eval/2026-03-30_teacher_fail50_heatmaps/heatmap_model_reached_goal_acc.png

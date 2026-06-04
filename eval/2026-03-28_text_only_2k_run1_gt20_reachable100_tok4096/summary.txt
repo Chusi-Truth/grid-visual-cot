@@ -1,0 +1,14 @@
+Eval Accuracy By Size Summary
+DateTime: 2026-03-28T14:24:19.611024+08:00
+Model: /root/autodl-tmp/visual-cot_output/grid_cot_text_only_2k_run1_merged
+Dataset: /root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/grid_cot_test_mixed_size_reachable.json
+ThresholdArea: 20
+TotalSamples: 100
+TotalReachedGoalAccuracy: 0.0000
+TotalExactMatchAccuracy: 0.0000
+TotalStatusCounts: {"stopped_before_goal": 48, "fell_into_hole": 36, "out_of_bounds": 16}
+
+gt_20.Samples: 100
+gt_20.ReachedGoalAccuracy: 0.0000
+gt_20.ExactMatchAccuracy: 0.0000
+gt_20.StatusCounts: {"stopped_before_goal": 48, "fell_into_hole": 36, "out_of_bounds": 16}

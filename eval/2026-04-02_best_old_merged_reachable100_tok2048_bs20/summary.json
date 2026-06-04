@@ -1,0 +1,31 @@
+{
+  "overall": {
+    "num_samples": 100,
+    "num_reached_goal": 88,
+    "num_exact_match": 19,
+    "num_declared_no_path": 0,
+    "num_no_answer": 12,
+    "status_counts": {
+      "no_answer": 12,
+      "reached_goal": 88
+    },
+    "reached_goal_accuracy": 0.88,
+    "exact_match_accuracy": 0.19,
+    "elapsed_seconds": 462.43
+  },
+  "by_bucket": {
+    "eq_20": {
+      "num_samples": 100,
+      "num_reached_goal": 88,
+      "num_exact_match": 19,
+      "num_declared_no_path": 0,
+      "num_no_answer": 12,
+      "status_counts": {
+        "no_answer": 12,
+        "reached_goal": 88
+      },
+      "reached_goal_accuracy": 0.88,
+      "exact_match_accuracy": 0.19
+    }
+  }
+}

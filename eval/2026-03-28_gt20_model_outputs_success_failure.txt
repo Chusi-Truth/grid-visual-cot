@@ -1,0 +1,298 @@
+GT>20 Model Outputs (State-only vs Text-only)
+Dataset: /root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/grid_cot_test_mixed_size_reachable.json
+State result file: /root/CoVT/visual-cot/eval/2026-03-28_state_only_2k_run1_gt20_reachable100_tok4096/results.json
+Text result file:  /root/CoVT/visual-cot/eval/2026-03-28_text_only_2k_run1_gt20_reachable100_tok4096/results.json
+
+=== SUCCESS CASES (state-only reached_goal=True) ===
+--- Case S1 ---
+image: /root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/test_images/0026_4x6_seed700031.jpg
+size: 4x6 area=24
+reference_answer: go down -> go right -> go down -> go right -> go right -> go right -> go right -> go down
+
+[state-only]
+status: reached_goal
+predicted_answer: go right -> go down -> go right -> go down -> go right -> go right -> go right -> go down
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (3, 5) while staying on safe ice.
+The hazards: there are 3 holes I must avoid: (0,2), (2,0), (3,4).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go down brings me to (1, 0) — 6 move(s) short of the goal. Going go up brings me to (0, 0) — 7 move(s) short of the goal. go right gets me the furthest, leaving just 6 step(s). I'll keep this.
+If I take go right->go down, I land at (1, 1) — still 5 step(s) from the goal. If I take go down->go right, I land at (1, 1) — still 5 step(s) from the goal. If I take go right->go up, I land at (0, 1) — still 6 step(s) from the goal. If I take go right->go right, I land at (0, 2) — but that's a hole — not an option. If I take go down->go down, I land at (2, 0) — but that's a hole — not an option. Going with go right->go down for now — 5 more step(s) to the goal.
+<grid_token>
+(Checking the grid
+...[TRUNCATED]...
+
+[text-only]
+status: stopped_before_goal
+predicted_answer: go right -> go down -> go right -> go right -> go right -> go right -> go down
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (3, 5) while staying on safe ice.
+The hazards: there are 3 holes I must avoid: (0,2), (2,0), (3,4).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go up brings me to (0, 0) — 7 move(s) short of the goal. Going go left brings me to (0, 0) — 7 move(s) short of the goal. Going go down brings me to (1, 0) — 6 move(s) short of the goal. go right looks best — only 6 step(s) left to the goal.
+If I take go right->go down, I land at (1, 1) — still 5 step(s) from the goal. If I take go right->go up, I land at (0, 1) — still 6 step(s) from the goal. If I take go up->go right, I land at (0, 1) — still 6 step(s) from the goal. If I take go right->go right, I land at (0, 2) — but that's a hole — not an option. If I take go up->go down, I land at (1, 0) — still 6 step(s) from the goal. I'll continue with go right->go down; it's the closest, w
+...[TRUNCATED]...
+
+--- Case S2 ---
+image: /root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/test_images/0044_6x4_seed700054.jpg
+size: 6x4 area=24
+reference_answer: go down -> go right -> go down -> go down -> go right -> go down -> go down -> go right
+
+[state-only]
+status: reached_goal
+predicted_answer: go right -> go right -> go right -> go down -> go down -> go down -> go down -> go down
+exact_match: False
+raw_output_head:
+<think>
+Alright, here's the situation: I'm navigating a grid maze, starting at (0, 0) in the top-left and trying to reach (5, 3) at the bottom-right.
+The surface is slippery ice and there are 2 holes I must avoid: (1,0), (3,1).
+I'll explore a few paths at once, pruning any that walk into holes or move away from the goal, and keep whichever options look best at each decision point.
+Here's my step-by-step reasoning.
+Taking go right puts me at (0, 1) — leaving 6 step(s) to go. Taking go left puts me at (0, 0) — leaving 7 step(s) to go. Taking go up puts me at (0, 0) — leaving 7 step(s) to go. Taking go down puts me at (1, 0) — — but it's a hole, so this is off the table. Going with go right for now — 6 more step(s) to the goal.
+go right->go right leads to (0, 2) — 5 step(s) remaining. go right->go down leads to (1, 1) — 5 step(s) remaining. go right->go up leads to (0, 1) — 6 step(s) remaining. go left->go down leads to (1, 0) — a hole — I'll skip this. go right->go right looks best — only 5 step(s) left to the goal.
+<grid_token>
+(Checking the grid: position (0,2), distance to goal = 5. No holes nearby — safe to continue. Moving on.)
+Following go right->go right->go right I'd end up a
+...[TRUNCATED]...
+
+[text-only]
+status: stopped_before_goal
+predicted_answer: go right -> go right -> go down -> go down -> go down -> go right -> go down
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (5, 3) while staying on safe ice.
+The hazards: there are 2 holes I must avoid: (1,0), (3,1).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go left brings me to (0, 0) — 7 move(s) short of the goal. Going go up brings me to (0, 0) — 7 move(s) short of the goal. Going go down brings me to (1, 0) — — into a hole, so no. go right looks best — only 6 step(s) left to the goal.
+If I take go right->go right, I land at (0, 2) — still 5 step(s) from the goal. If I take go right->go down, I land at (1, 1) — still 5 step(s) from the goal. If I take go right->go up, I land at (0, 1) — still 6 step(s) from the goal. If I take go left->go down, I land at (1, 0) — but that's a hole — not an option. I'll continue with go right->go right; it's the closest, with 5 step(s) to go.
+Taking go right->go right->go down puts me at (1, 2) — leaving 4 st
+...[TRUNCATED]...
+
+--- Case S3 ---
+image: /root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/test_images/0078_4x6_seed700096.jpg
+size: 4x6 area=24
+reference_answer: go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right
+
+[state-only]
+status: reached_goal
+predicted_answer: go right -> go down -> go right -> go right -> go down -> go down -> go right -> go right
+exact_match: False
+raw_output_head:
+<think>
+Alright, here's the situation: I'm navigating a grid maze, starting at (0, 0) in the top-left and trying to reach (3, 5) at the bottom-right.
+The surface is slippery ice and there are 2 holes I must avoid: (0,2), (2,2).
+I'll explore a few paths at once, pruning any that walk into holes or move away from the goal, and keep whichever options look best at each decision point.
+Here's my step-by-step reasoning.
+Taking go right puts me at (0, 1) — leaving 6 step(s) to go. Taking go down puts me at (1, 0) — leaving 6 step(s) to go. Taking go up puts me at (0, 0) — leaving 7 step(s) to go. Going with go right for now — 6 more step(s) to the goal.
+go right->go down leads to (1, 1) — 5 step(s) remaining. go down->go right leads to (1, 1) — 5 step(s) remaining. go down->go down leads to (2, 0) — 5 step(s) remaining. go right->go right leads to (0, 2) — a hole — I'll skip this. go right->go down looks best — only 5 step(s) left to the goal.
+<grid_token>
+(Visual check: I'm at (1,1), 5 step(s) from goal. Path ahead looks clear. Continuing.)
+Following go right->go down->go right I'd end up at (1, 2) — with 4 step(s) still ahead. Following go right->go down->go down I'd end up at (2, 1) — 
+...[TRUNCATED]...
+
+[text-only]
+status: stopped_before_goal
+predicted_answer: go right -> go down -> go right -> go right -> go down -> go down -> go right
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (3, 5) while staying on safe ice.
+The hazards: there are 2 holes I must avoid: (0,2), (2,2).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go down brings me to (1, 0) — 6 move(s) short of the goal. Going go up brings me to (0, 0) — 7 move(s) short of the goal. go right gets me the furthest, leaving just 6 step(s). I'll keep this.
+If I take go right->go down, I land at (1, 1) — still 5 step(s) from the goal. If I take go down->go right, I land at (1, 1) — still 5 step(s) from the goal. If I take go down->go down, I land at (2, 0) — still 5 step(s) from the goal. If I take go right->go right, I land at (0, 2) — but that's a hole — not an option. Going with go right->go down for now — 5 more step(s) to the goal.
+Taking go right->go down->go right puts me at (1, 2) — leaving 4 step(s) to go. Taking go right->go down->go down puts 
+...[TRUNCATED]...
+
+--- Case S4 ---
+image: /root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/test_images/0091_4x6_seed700110.jpg
+size: 4x6 area=24
+reference_answer: go down -> go right -> go down -> go down -> go right -> go right -> go right -> go right
+
+[state-only]
+status: reached_goal
+predicted_answer: go right -> go right -> go right -> go right -> go down -> go down -> go down -> go right
+exact_match: False
+raw_output_head:
+<think>
+Alright, here's the situation: I'm navigating a grid maze, starting at (0, 0) in the top-left and trying to reach (3, 5) at the bottom-right.
+The surface is slippery ice and there are 2 holes I must avoid: (1,3), (2,0).
+I'll explore a few paths at once, pruning any that walk into holes or move away from the goal, and keep whichever options look best at each decision point.
+Here's my step-by-step reasoning.
+Taking go right puts me at (0, 1) — leaving 6 step(s) to go. Taking go down puts me at (1, 0) — leaving 6 step(s) to go. Taking go up puts me at (0, 0) — leaving 7 step(s) to go. Going with go right for now — 6 more step(s) to the goal.
+go right->go right leads to (0, 2) — 5 step(s) remaining. go right->go down leads to (1, 1) — 5 step(s) remaining. go down->go right leads to (1, 1) — 5 step(s) remaining. go down->go down leads to (2, 0) — a hole — I'll skip this. go right->go right looks best — only 5 step(s) left to the goal.
+<grid_token>
+(Checking the grid: position (0,2), distance to goal = 5. No holes nearby — safe to continue. Moving on.)
+Following go right->go right->go right I'd end up at (0, 3) — with 4 step(s) still ahead. Following go right->go right->go down I
+...[TRUNCATED]...
+
+[text-only]
+status: stopped_before_goal
+predicted_answer: go right -> go right -> go down -> go down -> go down -> go right -> go right
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (3, 5) while staying on safe ice.
+The hazards: there are 2 holes I must avoid: (1,3), (2,0).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go down brings me to (1, 0) — 6 move(s) short of the goal. Going go up brings me to (0, 0) — 7 move(s) short of the goal. go right looks best — only 6 step(s) left to the goal.
+If I take go right->go right, I land at (0, 2) — still 5 step(s) from the goal. If I take go right->go down, I land at (1, 1) — still 5 step(s) from the goal. If I take go down->go right, I land at (1, 1) — still 5 step(s) from the goal. If I take go down->go down, I land at (2, 0) — but that's a hole — not an option. I'll continue with go right->go right; it's the closest, with 5 step(s) to go.
+Taking go right->go right->go down puts me at (1, 2) — leaving 4 step(s) to go. Taking go right->go right->go right puts me
+...[TRUNCATED]...
+
+=== FAILURE CASES (state-only reached_goal=False) ===
+--- Case F1 ---
+image: /root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/test_images/0000_4x6_seed700000.jpg
+size: 4x6 area=24
+reference_answer: go down -> go down -> go down -> go right -> go right -> go right -> go right -> go right
+
+[state-only]
+status: stopped_before_goal
+predicted_answer: go right -> go down -> go up -> go down -> go up -> go right -> go right -> go right -> go down -> go down -> go down
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (3, 5) while staying on safe ice.
+The hazards: there are 4 holes I must avoid: (1,2), (2,1), (2,2), (2,3).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go down brings me to (1, 0) — 6 move(s) short of the goal. Going go up brings me to (0, 0) — 7 move(s) short of the goal. go right looks best — only 6 step(s) left to the goal.
+If I take go right->go down, I land at (1, 1) — still 5 step(s) from the goal. If I take go right->go right, I land at (0, 2) — still 5 step(s) from the goal. If I take go down->go right, I land at (1, 1) — still 5 step(s) from the goal. I'll continue with go right->go down; it's the closest, with 5 step(s) to go.
+<grid_token>
+(Grid snapshot: currently at (1,1), 5 step(s) left. Note: hole(s) next to me at [(1, 2), (2, 1)]. Proceeding.)
+Taking go right->go down->go up puts me at (0, 1) — leaving 6 step(s
+...[TRUNCATED]...
+
+[text-only]
+status: stopped_before_goal
+predicted_answer: go right -> go down -> go right -> go up -> go down -> go up -> go down -> go up -> go down -> go up -> go down -> go up -> go down -> go up -> go right
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (3, 5) while staying on safe ice.
+The hazards: there are 4 holes I must avoid: (1,3), (2,1), (2,2), (2,3).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go down brings me to (1, 0) — 6 move(s) short of the goal. Going go up brings me to (0, 0) — 7 move(s) short of the goal. go right looks best — only 6 step(s) left to the goal.
+If I take go right->go down, I land at (1, 1) — still 5 step(s) from the goal. If I take go right->go right, I land at (0, 2) — still 5 step(s) from the goal. If I take go down->go right, I land at (1, 1) — still 5 step(s) from the goal. I'll continue with go right->go down; it's the closest, with 5 step(s) to go.
+Taking go right->go down->go right puts me at (1, 2) — leaving 4 step(s) to go. Taking go right->go down->go up puts me at (0, 1) — leaving 6 step(s) to go. Taking go right->go down->go left p
+...[TRUNCATED]...
+
+--- Case F2 ---
+image: /root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/test_images/0005_6x4_seed700005.jpg
+size: 6x4 area=24
+reference_answer: go down -> go right -> go down -> go right -> go down -> go right -> go down -> go down
+
+[state-only]
+status: out_of_bounds
+predicted_answer: go right -> go right -> go right -> go right -> go up -> go up -> go up -> go right -> go up -> go up -> go right -> go up -> go up -> go right -> go right
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (5, 3) while staying on safe ice.
+The hazards: there are 5 holes I must avoid: (1,2), (1,3), (1,0), (2,2), (3,2).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go left brings me to (0, 0) — 7 move(s) short of the goal. Going go up brings me to (0, 0) — 7 move(s) short of the goal. Going go down brings me to (1, 0) — — into a hole, so no. go right looks best — only 6 step(s) left to the goal.
+If I take go right->go right, I land at (0, 2) — still 5 step(s) from the goal. If I take go right->go down, I land at (1, 1) — still 5 step(s) from the goal. If I take go right->go up, I land at (0, 1) — still 6 step(s) from the goal. If I take go left->go down, I land at (1, 0) — but that's a hole — not an option. I'll continue with go right->go right; it's the closest, with 5 step(s) to go.
+<grid_token>
+(Checking the grid: position (0,2
+...[TRUNCATED]...
+
+[text-only]
+status: out_of_bounds
+predicted_answer: go right -> go right -> go right -> go right -> go up -> go up -> go right -> go right -> go up -> go right -> go right -> go up -> go right -> go right -> go right
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (5, 3) while staying on safe ice.
+The hazards: there are 5 holes I must avoid: (1,2), (1,3), (1,0), (2,1), (3,2).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go down brings me to (1, 0) — a hole — I'll skip this. Going go up brings me to (0, 0) — 7 move(s) short of the goal. go right gets me the furthest, leaving just 6 step(s). I'll keep this.
+If I take go right->go right, I land at (0, 2) — still 5 step(s) from the goal. If I take go right->go down, I land at (1, 1) — still 5 step(s) from the goal. If I take go right->go up, I land at (0, 1) — still 6 step(s) from the goal. If I take go down->go right, I land at (1, 0) — but that's a hole — not an option. Going with go right->go right for now — 5 more step(s) to the goal.
+Taking go right->go right->go right puts me at (0, 3) — leaving 4 step(s) to go. Taking go right->go r
+...[TRUNCATED]...
+
+--- Case F3 ---
+image: /root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/test_images/0013_4x6_seed700014.jpg
+size: 4x6 area=24
+reference_answer: go right -> go right -> go right -> go right -> go down -> go down -> go down -> go right
+
+[state-only]
+status: out_of_bounds
+predicted_answer: go right -> go down -> go down -> go down -> go down -> go down -> go down -> go down -> go down -> go down -> go down -> go down -> go down -> go down -> go right
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (3, 5) while staying on safe ice.
+The hazards: there are 4 holes I must avoid: (1,2), (2,2), (3,0), (3,2).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go down brings me to (1, 0) — 6 move(s) short of the goal. Going go up brings me to (0, 0) — 7 move(s) short of the goal. go right gets me the furthest, leaving just 6 step(s). I'll keep this.
+If I take go right->go down, I land at (1, 1) — still 5 step(s) from the goal. If I take go right->go right, I land at (0, 2) — still 5 step(s) from the goal. If I take go down->go right, I land at (1, 1) — still 5 step(s) from the goal. Going with go right->go down for now — 5 more step(s) to the goal.
+<grid_token>
+(Grid snapshot: currently at (1,1), 5 step(s) left. Note: hole(s) next to me at [(1, 2)]. Proceeding.)
+Taking go right->go down->go down puts me at (2, 1) — leaving 4 step(s)
+...[TRUNCATED]...
+
+[text-only]
+status: stopped_before_goal
+predicted_answer: go right -> go down -> go down -> go left -> go right -> go left -> go right -> go left -> go right -> go left -> go right -> go left -> go right -> go left -> go right
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (3, 5) while staying on safe ice.
+The hazards: there are 4 holes I must avoid: (1,2), (2,2), (3,1), (3,2).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go down brings me to (1, 0) — 6 move(s) short of the goal. Going go up brings me to (0, 0) — 7 move(s) short of the goal. go right looks best — only 6 step(s) left to the goal.
+If I take go right->go down, I land at (1, 1) — still 5 step(s) from the goal. If I take go right->go right, I land at (0, 2) — still 5 step(s) from the goal. If I take go down->go right, I land at (1, 1) — still 5 step(s) from the goal. I'll continue with go right->go down; it's the closest, with 5 step(s) to go.
+Taking go right->go down->go down puts me at (2, 1) — leaving 4 step(s) to go. Taking go right->go down->go left puts me at (1, 0) — leaving 6 step(s) to go. Taking go right->go down->go up pu
+...[TRUNCATED]...
+
+--- Case F4 ---
+image: /root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/test_images/0018_6x4_seed700020.jpg
+size: 6x4 area=24
+reference_answer: go right -> go right -> go down -> go down -> go down -> go down -> go down -> go right
+
+[state-only]
+status: fell_into_hole
+predicted_answer: go right -> go right -> go right -> go down -> go down -> go right -> go down
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (5, 3) while staying on safe ice.
+The hazards: there are 5 holes I must avoid: (1,1), (1,2), (1,4), (3,0), (4,1).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go down brings me to (1, 0) — 6 move(s) short of the goal. Going go left brings me to (0, 0) — 7 move(s) short of the goal. go right gets me the furthest, leaving just 6 step(s). I'll keep this.
+If I take go right->go right, I land at (0, 2) — still 5 step(s) from the goal. If I take go down->go down, I land at (2, 0) — still 5 step(s) from the goal. If I take go right->go up, I land at (0, 1) — still 6 step(s) from the goal. If I take go right->go down, I land at (1, 1) — but that's a hole — not an option. If I take go down->go right, I land at (1, 1) — but that's a hole — not an option. Going with go right->go right for now — 5 more step(s) to the goal.
+<grid_token>
+(
+...[TRUNCATED]...
+
+[text-only]
+status: out_of_bounds
+predicted_answer: go right -> go right -> go right -> go right -> go down -> go down -> go down
+exact_match: False
+raw_output_head:
+<think>
+Looking at this map, I see a navigation challenge: get from (0, 0) to (5, 3) while staying on safe ice.
+The hazards: there are 5 holes I must avoid: (1,1), (1,3), (2,1), (3,1), (4,2).
+Rather than hunting for one perfect path blindly, I'll maintain a small set of candidate sequences and expand them step by step. At each level I rank the options by remaining distance to the goal and discard the weaker ones.
+Let me trace through the search.
+Going go right brings me to (0, 1) — 6 move(s) short of the goal. Going go down brings me to (1, 0) — 6 move(s) short of the goal. Going go left brings me to (0, 0) — 7 move(s) short of the goal. go right looks best — only 6 step(s) left to the goal.
+If I take go right->go right, I land at (0, 2) — still 5 step(s) from the goal. If I take go down->go down, I land at (2, 0) — still 5 step(s) from the goal. If I take go right->go up, I land at (0, 1) — still 6 step(s) from the goal. If I take go right->go down, I land at (1, 1) — but that's a hole — not an option. If I take go down->go right, I land at (1, 1) — but that's a hole — not an option. I'll continue with go right->go right; it's the closest, with 5 step(s) to go.
+Taking go right->go
+...[TRUNCATED]...

@@ -1,0 +1,50 @@
+[
+  {
+    "sample_index": 0,
+    "raw_output": "To find a safe path from the Start (S) to the Goal (G), let's analyze the grid step by step:\n\n1.  **Analyze the Grid:**\n    *   The grid is 4 rows by 5 columns.\n    *   The Start (S) is at the top-left corner `(0, 0)`.\n    *   The Goal (G) is at the bottom-right corner `(3, 4)`.\n    *   There are Holes (H) located at `(0, 1)`, `(0, 2)`, and `(1, 1)`. All other tiles are safe Frozen (F) ice.\n\n2.  **Plan the Path:**\n    *   From `(0, 0)`, moving right is blocked by a hole at `(0, 1)`. So, we must **go down** to `(1, 0)`.\n    *   From `(1, 0)`, moving right is blocked by a hole at `(1, 1)`. So, we must **go down** again to `(2, 0)`.\n    *   Now at `(2, 0)`, the entire row 2 is safe. We can move right across the grid.\n    *   **Go right** to `(2, 1)`.\n    *   **Go right** to `(2, 2)`.\n    *   **Go right** to `(2, 3)`.\n    *   **Go right** to `(2, 4)`.\n    *   Finally, from `(2, 4)`, we are directly above the goal. **Go down** to reach the Goal at `(3, 4)`.\n\nThis path successfully avoids all holes and reaches the destination.\n\n<answer>go down -> go down -> go right -> go right -> go right -> go right -> go down</answer>",
+    "clean_output": "To find a safe path from the Start (S) to the Goal (G), let's analyze the grid step by step:\n\n1. **Analyze the Grid:**\n * The grid is 4 rows by 5 columns.\n * The Start (S) is at the top-left corner `(0, 0)`.\n * The Goal (G) is at the bottom-right corner `(3, 4)`.\n * There are Holes (H) located at `(0, 1)`, `(0, 2)`, and `(1, 1)`. All other tiles are safe Frozen (F) ice.\n\n2. **Plan the Path:**\n * From `(0, 0)`, moving right is blocked by a hole at `(0, 1)`. So, we must **go down** to `(1, 0)`.\n * From `(1, 0)`, moving right is blocked by a hole at `(1, 1)`. So, we must **go down** again to `(2, 0)`.\n * Now at `(2, 0)`, the entire row 2 is safe. We can move right across the grid.\n * **Go right** to `(2, 1)`.\n * **Go right** to `(2, 2)`.\n * **Go right** to `(2, 3)`.\n * **Go right** to `(2, 4)`.\n * Finally, from `(2, 4)`, we are directly above the goal. **Go down** to reach the Goal at `(3, 4)`.\n\nThis path successfully avoids all holes and reaches the destination.\n\n<answer>go down -> go down -> go right -> go right -> go right -> go right -> go down</answer>",
+    "predicted_answer": "go down -> go down -> go right -> go right -> go right -> go right -> go down",
+    "reference_answer": "go down -> go down -> go right -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "reached_goal",
+      "reason": "step 7: down -> (3, 4)",
+      "trajectory": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": true,
+    "image_path": "/root/CoTCreator/eval/bagel_plan/cot_visual_500/base_images/500003.jpg"
+  }
+]

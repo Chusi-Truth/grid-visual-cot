@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-03-31T18:19:40.509579+08:00",
+  "dataset": "/root/CoVT/visual-cot/eval/2026-03-29_size_generalization_3splits/far_ood/grid_cot_test_far_ood.json",
+  "metric": "ReachedGoalAccuracy",
+  "samples": 40,
+  "models": [
+    {
+      "name": "text-only (2k run1)",
+      "reached_goal_accuracy": 0.0,
+      "source_summary": "/root/CoVT/visual-cot/eval/2026-03-31_text_only_2k_run1_far_ood_tok4096_bs4/summary.txt"
+    },
+    {
+      "name": "state-only (2k run1)",
+      "reached_goal_accuracy": 0.05,
+      "source_summary": "/root/CoVT/visual-cot/eval/2026-03-31_state_only_2k_run1_far_ood_tok4096/summary.txt"
+    },
+    {
+      "name": "state-desc (2k/8k run2)",
+      "reached_goal_accuracy": 0.05,
+      "source_summary": "/root/CoVT/visual-cot/eval/2026-03-31_text_state_desc_2k_8k_run2_far_ood_tok4096_bs4/summary.txt"
+    }
+  ]
+}

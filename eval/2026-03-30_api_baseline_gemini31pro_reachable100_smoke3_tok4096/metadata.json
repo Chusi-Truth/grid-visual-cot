@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-03-30T15:07:42.263956+08:00",
+  "api_mode": "chat",
+  "model": "gemini-3.1-pro-preview",
+  "api_base_url": "https://aihubmix.com/v1",
+  "dataset_path": "eval/2026-03-27_reachable_holdout100/grid_cot_test_reachable_100.json",
+  "max_output_tokens": 4096,
+  "temperature": 0.0,
+  "max_retries": 3,
+  "retry_sleep": 2.0,
+  "request_timeout": 180.0,
+  "prompt_mode": "text_only",
+  "note": "API baseline eval on provided dataset."
+}

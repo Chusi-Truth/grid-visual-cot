@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-03-30T18:55:52.326966+08:00",
+  "base_18_dataset": "eval/2026-03-30_teacher_fail_but_reachable30_bfs/grid_cot_test_teacher_fail_but_reachable_30.json",
+  "newly_generated": 32,
+  "total": 50,
+  "rule": "BFS reachable + weak teacher beam-search failed",
+  "generator": {
+    "rows": 4,
+    "cols": 5,
+    "p": 0.8,
+    "base_seed": 960000,
+    "candidate_num": 4,
+    "beam_num": 2,
+    "max_steps": 9,
+    "tries": 701
+  },
+  "output_dataset": "eval/2026-03-30_teacher_fail_but_reachable50_regen/grid_cot_test_teacher_fail_but_reachable_50.json"
+}

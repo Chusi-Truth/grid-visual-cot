@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-28T14:24:19.611024+08:00",
+  "model_path": "/root/autodl-tmp/visual-cot_output/grid_cot_text_only_2k_run1_merged",
+  "dataset_path": "/root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/grid_cot_test_mixed_size_reachable.json",
+  "max_new_tokens": 4096,
+  "batch_size": 4,
+  "threshold_area": 20,
+  "bucket_rules": {
+    "lt_20": "rows*cols < 20",
+    "eq_20": "rows*cols == 20",
+    "gt_20": "rows*cols > 20"
+  }
+}

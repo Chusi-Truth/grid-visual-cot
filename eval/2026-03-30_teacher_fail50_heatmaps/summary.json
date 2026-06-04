@@ -1,0 +1,16 @@
+{
+  "runs": {
+    "text-only": "eval/2026-03-30_teacher_fail50_text_only_eval_tok1536/summary.json",
+    "state": "eval/2026-03-30_teacher_fail50_state_eval_tok1536/summary.json",
+    "state-desc": "eval/2026-03-30_teacher_fail50_state_desc_eval_tok1536/summary.json"
+  },
+  "model_reached_goal_acc": {
+    "text-only": 0.2,
+    "state": 0.26,
+    "state-desc": 0.24
+  },
+  "outputs": [
+    "eval/2026-03-30_teacher_fail50_heatmaps/heatmap_model_metrics.png",
+    "eval/2026-03-30_teacher_fail50_heatmaps/heatmap_model_reached_goal_acc.png"
+  ]
+}

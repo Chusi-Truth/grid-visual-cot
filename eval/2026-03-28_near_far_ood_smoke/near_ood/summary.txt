@@ -1,0 +1,5 @@
+near_ood OOD Eval Set
+Dataset: /root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/near_ood/grid_cot_test_near_ood.json
+Samples: 8
+Sizes: 4x6, 6x4, 4x7, 6x5
+SizeDistribution: {"4x6": 2, "4x7": 2, "6x4": 2, "6x5": 2}

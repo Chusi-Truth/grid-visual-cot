@@ -1,0 +1,7 @@
+Mixed-Size Reachable Test Set
+Dataset: /root/CoVT/visual-cot/eval/2026-03-27_mixed_size_reachable100/grid_cot_test_mixed_size_reachable.json
+Samples: 100
+SmallCount(area<20): 50
+LargeCount(area>20): 50
+ExcludedEqualArea: 20
+SizeDistribution: {"4x4": 50, "4x6": 4, "4x7": 4, "5x5": 4, "5x6": 4, "5x7": 4, "6x4": 4, "6x5": 4, "6x6": 4, "6x7": 4, "7x4": 4, "7x5": 4, "7x6": 3, "7x7": 3}

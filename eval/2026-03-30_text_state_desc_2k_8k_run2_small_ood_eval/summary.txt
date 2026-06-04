@@ -1,0 +1,14 @@
+Eval Accuracy By Size Summary
+DateTime: 2026-03-30T16:12:55.071335+08:00
+Model: /root/autodl-tmp/visual-cot_output/grid_cot_text_state_desc_2k_8k_run2
+Dataset: /root/CoVT/visual-cot/eval/2026-03-29_size_generalization_3splits/small_id_shift/grid_cot_test_small_id_shift.json
+ThresholdArea: 20
+TotalSamples: 50
+TotalReachedGoalAccuracy: 0.5000
+TotalExactMatchAccuracy: 0.0600
+TotalStatusCounts: {"reached_goal": 25, "stopped_before_goal": 13, "fell_into_hole": 12}
+
+lt_20.Samples: 50
+lt_20.ReachedGoalAccuracy: 0.5000
+lt_20.ExactMatchAccuracy: 0.0600
+lt_20.StatusCounts: {"reached_goal": 25, "stopped_before_goal": 13, "fell_into_hole": 12}

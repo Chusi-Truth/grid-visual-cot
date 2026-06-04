@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-31T15:57:04.245391+08:00",
+  "model_path": "/root/autodl-tmp/models/Qwen2.5-VL-7B-Instruct",
+  "dataset_path": "/root/CoVT/visual-cot/eval/2026-03-29_size_generalization_3splits/small_id_shift/grid_cot_test_small_id_shift.json",
+  "max_new_tokens": 1536,
+  "batch_size": 4,
+  "note": "No dedicated test split was found; this run uses the provided dataset as the evaluation set."
+}

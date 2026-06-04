@@ -1,0 +1,31 @@
+{
+  "num_samples": 100,
+  "num_reached_goal": 42,
+  "reached_goal_accuracy": 0.42,
+  "status_counts": {
+    "reached_goal": 42,
+    "fell_into_hole": 21,
+    "stopped_before_goal": 37
+  },
+  "by_bucket": {
+    "lt_20": {
+      "num_samples": 50,
+      "num_reached_goal": 42,
+      "reached_goal_accuracy": 0.84,
+      "status_counts": {
+        "reached_goal": 42,
+        "fell_into_hole": 2,
+        "stopped_before_goal": 6
+      }
+    },
+    "gt_20": {
+      "num_samples": 50,
+      "num_reached_goal": 0,
+      "reached_goal_accuracy": 0.0,
+      "status_counts": {
+        "fell_into_hole": 19,
+        "stopped_before_goal": 31
+      }
+    }
+  }
+}

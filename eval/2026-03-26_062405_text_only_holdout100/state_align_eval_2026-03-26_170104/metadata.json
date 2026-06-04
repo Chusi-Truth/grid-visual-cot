@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-26T17:11:50.071584+08:00",
+  "model_path": "/root/autodl-tmp/visual-cot_output/grid_cot_text_only_state_align_merged",
+  "dataset_path": "/root/CoVT/visual-cot/eval/2026-03-26_062405_text_only_holdout100/grid_cot_test_100.json",
+  "max_new_tokens": 1024,
+  "batch_size": 4,
+  "note": "This run uses a newly generated 100-sample holdout test set, separate from the training data."
+}

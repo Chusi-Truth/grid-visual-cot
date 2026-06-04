@@ -1,0 +1,14 @@
+Eval Accuracy By Size Summary
+DateTime: 2026-04-02T20:05:28.096827+08:00
+Model: /root/autodl-tmp/visual-cot_output/grid_cot_state_only_2k_run1
+Dataset: eval/2026-03-30_reachable_holdout100_bfs/grid_cot_test_reachable_100.json
+ThresholdArea: 20
+TotalSamples: 10
+TotalReachedGoalAccuracy: 0.0000
+TotalExactMatchAccuracy: 0.0000
+TotalStatusCounts: {"no_answer": 10}
+
+eq_20.Samples: 10
+eq_20.ReachedGoalAccuracy: 0.0000
+eq_20.ExactMatchAccuracy: 0.0000
+eq_20.StatusCounts: {"no_answer": 10}

@@ -1,0 +1,8 @@
+MiniGrid Nav Eval Summary
+DateTime: 2026-04-09T16:08:45.360307+08:00
+Model: /root/autodl-tmp/visual-cot_output/minigrid4x4_nav_fixed_1000_run1_merged
+Dataset: dataset/minigrid4x4_nav_fixed_1000.json
+TotalSamples: 5
+ReachedGoalAccuracy: 0.0000
+NoAnswer: 4
+StatusCounts: {"no_answer": 4, "stopped_before_goal": 1}

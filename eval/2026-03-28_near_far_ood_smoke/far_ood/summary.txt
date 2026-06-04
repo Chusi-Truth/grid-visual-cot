@@ -1,0 +1,5 @@
+far_ood OOD Eval Set
+Dataset: /root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/far_ood/grid_cot_test_far_ood.json
+Samples: 8
+Sizes: 6x6, 6x7, 7x6, 7x7
+SizeDistribution: {"6x6": 2, "6x7": 2, "7x6": 2, "7x7": 2}

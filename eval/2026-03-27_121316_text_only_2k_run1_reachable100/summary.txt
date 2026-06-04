@@ -1,0 +1,15 @@
+Text-Only Eval Summary
+DateTime: 2026-03-27T20:27:54.330622+08:00
+Model: /root/autodl-tmp/visual-cot_output/grid_cot_text_only_2k_run1_merged
+Dataset: /root/CoVT/visual-cot/eval/2026-03-27_reachable_holdout100/grid_cot_test_reachable_100.json
+Samples: 100
+ReachedGoalAccuracy: 0.9400
+ExactMatchAccuracy: 0.1900
+ReachedGoalCount: 94
+ExactMatchCount: 19
+NoAnswerCount: 0
+DeclaredNoPathCount: 0
+ElapsedSeconds: 866.58
+StatusCounts: {"reached_goal": 94, "out_of_bounds": 4, "fell_into_hole": 2}
+
+No dedicated test split was found; this run uses the provided dataset as the evaluation set.

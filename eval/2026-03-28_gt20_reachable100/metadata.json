@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-03-28T13:08:52.710512+08:00",
+  "dataset_path": "/root/CoVT/visual-cot/eval/2026-03-28_gt20_reachable100/grid_cot_test_mixed_size_reachable.json",
+  "num_samples": 100,
+  "threshold_area": 20,
+  "bucket_counts": {
+    "large": 100
+  },
+  "size_distribution": {
+    "4x6": 8,
+    "4x7": 8,
+    "5x5": 8,
+    "5x6": 8,
+    "5x7": 8,
+    "6x4": 8,
+    "6x5": 8,
+    "6x6": 8,
+    "6x7": 8,
+    "7x4": 7,
+    "7x5": 7,
+    "7x6": 7,
+    "7x7": 7
+  },
+  "policy": {
+    "small": "rows*cols < 20",
+    "large": "rows*cols > 20",
+    "equal": "rows*cols == 20 is excluded from this dataset"
+  },
+  "generation_args": {
+    "min_size": 4,
+    "max_size": 7,
+    "p": 0.8,
+    "base_seed": 700000,
+    "image_size": 256
+  }
+}

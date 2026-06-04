@@ -1,0 +1,15 @@
+Text-Only Eval Summary
+DateTime: 2026-03-26T17:11:50.071584+08:00
+Model: /root/autodl-tmp/visual-cot_output/grid_cot_text_only_state_align_merged
+Dataset: /root/CoVT/visual-cot/eval/2026-03-26_062405_text_only_holdout100/grid_cot_test_100.json
+Samples: 100
+ReachedGoalAccuracy: 0.2100
+ExactMatchAccuracy: 0.0400
+ReachedGoalCount: 21
+ExactMatchCount: 4
+NoAnswerCount: 0
+DeclaredNoPathCount: 0
+ElapsedSeconds: 637.72
+StatusCounts: {"stopped_before_goal": 18, "out_of_bounds": 21, "reached_goal": 21, "fell_into_hole": 40}
+
+This run uses a newly generated 100-sample holdout test set, separate from the training data.

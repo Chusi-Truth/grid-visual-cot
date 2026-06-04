@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-04-01T07:58:09.042099+08:00",
+  "split": "near_ood",
+  "dataset_path": "eval/2026-03-29_size_generalization_3splits/near_ood/grid_cot_test_near_ood.json",
+  "num_samples": 100,
+  "sizes": [
+    "4x6",
+    "4x7",
+    "5x5",
+    "5x6",
+    "5x7"
+  ],
+  "size_distribution": {
+    "4x6": 20,
+    "4x7": 20,
+    "5x5": 20,
+    "5x6": 20,
+    "5x7": 20
+  },
+  "generation_args": {
+    "p": 0.8,
+    "base_seed": 830000,
+    "image_size": 256
+  }
+}

@@ -1,0 +1,5 @@
+Eval Text-Only Prompt Summary (Recomputed)
+TotalSamples: 100
+ReachedGoalAccuracy: 0.1400
+ExactMatchAccuracy: 0.0100
+StatusCounts: {"fell_into_hole": 63, "stopped_before_goal": 22, "reached_goal": 14, "no_answer": 1}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-03-28T15:01:34.299865+08:00",
+  "split": "far_ood",
+  "dataset_path": "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/far_ood/grid_cot_test_far_ood.json",
+  "num_samples": 8,
+  "sizes": [
+    "6x6",
+    "6x7",
+    "7x6",
+    "7x7"
+  ],
+  "size_distribution": {
+    "6x6": 2,
+    "6x7": 2,
+    "7x6": 2,
+    "7x7": 2
+  },
+  "generation_args": {
+    "p": 0.8,
+    "base_seed": 910000,
+    "image_size": 256
+  }
+}

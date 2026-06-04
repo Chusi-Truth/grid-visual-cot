@@ -1,0 +1,22 @@
+[
+  {
+    "sample_index": 0,
+    "raw_output": "To find a safe path from the Start (S) to the Goal (G), let's first analyze the grid to identify the safe (F) tiles and the dangerous hole (H)",
+    "clean_output": "To find a safe path from the Start (S) to the Goal (G), let's first analyze the grid to identify the safe (F) tiles and the dangerous hole (H)",
+    "predicted_answer": null,
+    "reference_answer": "go down -> go down -> go right -> go down -> go right -> go right -> go right",
+    "simulation": {
+      "status": "no_answer",
+      "reason": "answer extraction failed",
+      "trajectory": [
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "exact_match": false,
+    "reached_goal": false,
+    "image_path": "/root/CoTCreator/eval/bagel_plan/cot_visual_500/base_images/500003.jpg"
+  }
+]

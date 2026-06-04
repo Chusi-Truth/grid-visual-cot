@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-26T17:29:14.352244+08:00",
+  "model_path": "/root/autodl-tmp/visual-cot_output/grid_cot_text_only_state_align_merged",
+  "dataset_path": "/root/CoVT/visual-cot/dataset/grid_cot_text_only.json",
+  "max_new_tokens": 1024,
+  "batch_size": 4,
+  "note": "No dedicated test split was found; this run uses the provided dataset as the evaluation set."
+}

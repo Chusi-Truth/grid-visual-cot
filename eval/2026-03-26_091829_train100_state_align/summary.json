@@ -1,0 +1,16 @@
+{
+  "num_samples": 100,
+  "num_reached_goal": 30,
+  "num_exact_match": 11,
+  "num_declared_no_path": 0,
+  "num_no_answer": 0,
+  "reached_goal_accuracy": 0.3,
+  "exact_match_accuracy": 0.11,
+  "status_counts": {
+    "out_of_bounds": 16,
+    "stopped_before_goal": 34,
+    "reached_goal": 30,
+    "fell_into_hole": 20
+  },
+  "elapsed_seconds": 636.8
+}

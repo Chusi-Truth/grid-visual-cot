@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-03-30T16:03:53.113026+08:00",
+  "input_candidates": "eval/2026-03-27_reachable_holdout100/grid_cot_candidate_140.json",
+  "output_dataset": "eval/2026-03-30_reachable_holdout100_bfs/grid_cot_test_reachable_100.json",
+  "selection_rule": "first 100 samples whose map is reachable by BFS graph search (ignoring teacher answer)",
+  "num_samples": 100,
+  "target_num_samples": 100,
+  "search": "bfs",
+  "skipped_parse": 0,
+  "skipped_unreachable": 0
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 4x6 grid.\nI start at (0, 0) and the goal is at (3, 5).\nThere are 5 holes I must avoid: (0,1), (0,3), (2,4), (3,1), (3,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go right -> go right -> go right -> go right -> go down -> go down</answer>"
+      }
+    ],
+    "images": [
+      "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/near_ood/test_images/0000_4x6_seed810000.jpg"
+    ],
+    "meta": {
+      "split": "near_ood",
+      "rows": 4,
+      "cols": 6,
+      "area": 24,
+      "seed": 810000
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x4 grid.\nI start at (0, 0) and the goal is at (5, 3).\nThere are 3 holes I must avoid: (0,1), (0,2), (2,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/near_ood/test_images/0001_6x4_seed810001.jpg"
+    ],
+    "meta": {
+      "split": "near_ood",
+      "rows": 6,
+      "cols": 4,
+      "area": 24,
+      "seed": 810001
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 4x7 grid.\nI start at (0, 0) and the goal is at (3, 6).\nThere are 4 holes I must avoid: (1,0), (2,2), (3,2), (3,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go down -> go right -> go right -> go down -> go right -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/near_ood/test_images/0002_4x7_seed810002.jpg"
+    ],
+    "meta": {
+      "split": "near_ood",
+      "rows": 4,
+      "cols": 7,
+      "area": 28,
+      "seed": 810002
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x5 grid.\nI start at (0, 0) and the goal is at (5, 4).\nThere are 4 holes I must avoid: (1,2), (1,4), (3,0), (3,1).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go right -> go down -> go down -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/near_ood/test_images/0003_6x5_seed810003.jpg"
+    ],
+    "meta": {
+      "split": "near_ood",
+      "rows": 6,
+      "cols": 5,
+      "area": 30,
+      "seed": 810003
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 4x6 grid.\nI start at (0, 0) and the goal is at (3, 5).\nThere are 3 holes I must avoid: (2,3), (2,5), (3,2).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go right -> go right -> go right -> go right -> go down -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/near_ood/test_images/0004_4x6_seed810004.jpg"
+    ],
+    "meta": {
+      "split": "near_ood",
+      "rows": 4,
+      "cols": 6,
+      "area": 24,
+      "seed": 810004
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x4 grid.\nI start at (0, 0) and the goal is at (5, 3).\nThere are 4 holes I must avoid: (0,1), (2,1), (4,1), (4,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go down -> go down -> go down -> go right -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/near_ood/test_images/0005_6x4_seed810005.jpg"
+    ],
+    "meta": {
+      "split": "near_ood",
+      "rows": 6,
+      "cols": 4,
+      "area": 24,
+      "seed": 810005
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 4x7 grid.\nI start at (0, 0) and the goal is at (3, 6).\nThere are 6 holes I must avoid: (0,4), (0,6), (1,2), (2,3), (2,4), (3,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go right -> go right -> go right -> go down -> go right -> go right -> go down -> go down -> go right</answer>"
+      }
+    ],
+    "images": [
+      "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/near_ood/test_images/0006_4x7_seed810006.jpg"
+    ],
+    "meta": {
+      "split": "near_ood",
+      "rows": 4,
+      "cols": 7,
+      "area": 28,
+      "seed": 810006
+    }
+  },
+  {
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<image>"
+      },
+      {
+        "from": "gpt",
+        "value": "<think>\nThis is a FrozenLake pathfinding problem on a 6x5 grid.\nI start at (0, 0) and the goal is at (5, 4).\nThere are 4 holes I must avoid: (2,2), (3,0), (4,1), (4,3).\nI need to avoid holes and produce a valid path from start to goal.\n</think>\n<answer>go down -> go down -> go right -> go down -> go right -> go down -> go down -> go right -> go right</answer>"
+      }
+    ],
+    "images": [
+      "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/near_ood/test_images/0007_6x5_seed810007.jpg"
+    ],
+    "meta": {
+      "split": "near_ood",
+      "rows": 6,
+      "cols": 5,
+      "area": 30,
+      "seed": 810007
+    }
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-04-11T19:20:21.960455+08:00",
+  "model_path": "/root/autodl-tmp/visual-cot_output/minigrid5x5_doorkey_50_stateonly_merged",
+  "dataset_path": "dataset/minigrid5x5_doorkey_50.json",
+  "max_new_tokens": 4096,
+  "batch_size": 5,
+  "environment": "minigrid"
+}

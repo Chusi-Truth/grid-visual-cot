@@ -1,0 +1,9 @@
+{
+  "source_candidates": "/root/CoVT/visual-cot/eval/2026-03-27_reachable_holdout100/grid_cot_candidate_140.json",
+  "output_dataset": "/root/CoVT/visual-cot/eval/2026-03-27_reachable_holdout100/grid_cot_test_reachable_100.json",
+  "selection_rule": "first 100 samples whose teacher <answer> is a reachable path, excluding fail-to-find-a-valid-path cases",
+  "num_samples": 100,
+  "all_reachable_teacher": true,
+  "map_seed": 10042,
+  "start_idx": 500000
+}

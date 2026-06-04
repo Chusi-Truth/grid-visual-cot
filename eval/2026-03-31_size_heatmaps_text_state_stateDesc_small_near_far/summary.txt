@@ -1,0 +1,6 @@
+ReachedGoalAccuracy Overview (small / near / far)
+[small_id_shift, n=50] text-only=0.6600, state-only=0.7000, state-desc=0.5000
+[near_ood, n=50] text-only=0.0400, state-only=0.2600, state-desc=0.2200
+[far_ood, n=40] text-only=0.0000, state-only=0.0500, state-desc=0.0500
+
+Note: small/near from previous runs (tok2048), far from latest runs (tok4096).

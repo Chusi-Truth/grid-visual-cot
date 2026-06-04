@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-04-11T01:39:25.326603+08:00",
+  "model_path": "/root/autodl-tmp/visual-cot_output/minigrid4x4_nav_v2_2000_run3_merged",
+  "dataset_path": "dataset/minigrid4x4_nav_v2_2000_baseonly.json",
+  "max_new_tokens": 4096,
+  "batch_size": 5,
+  "environment": "minigrid_nav"
+}

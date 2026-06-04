@@ -1,0 +1,14 @@
+{
+  "input_candidates": "eval/2026-03-27_reachable_holdout100/grid_cot_candidate_140.json",
+  "output_dataset": "eval/2026-03-30_teacher_fail_but_reachable30_bfs/grid_cot_test_teacher_fail_but_reachable_30.json",
+  "selection_rule": "teacher <answer> indicates fail/no-path AND BFS confirms map reachable",
+  "target_num_samples": 30,
+  "num_samples": 18,
+  "stats": {
+    "total": 140,
+    "teacher_fail": 18,
+    "reachable_among_teacher_fail": 18,
+    "selected": 18,
+    "parse_error": 0
+  }
+}

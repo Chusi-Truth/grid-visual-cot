@@ -1,0 +1,22 @@
+{
+  "num_samples": 100,
+  "num_reached_goal": 7,
+  "reached_goal_accuracy": 0.07,
+  "status_counts": {
+    "stopped_before_goal": 32,
+    "fell_into_hole": 61,
+    "reached_goal": 7
+  },
+  "by_bucket": {
+    "gt_20": {
+      "num_samples": 100,
+      "num_reached_goal": 7,
+      "reached_goal_accuracy": 0.07,
+      "status_counts": {
+        "stopped_before_goal": 32,
+        "fell_into_hole": 61,
+        "reached_goal": 7
+      }
+    }
+  }
+}

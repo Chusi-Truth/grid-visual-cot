@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-03-28T15:01:34.300512+08:00",
+  "output_dir": "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke",
+  "near_ood": {
+    "split": "near_ood",
+    "dataset_path": "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/near_ood/grid_cot_test_near_ood.json",
+    "num_samples": 8,
+    "size_distribution": {
+      "4x6": 2,
+      "6x4": 2,
+      "4x7": 2,
+      "6x5": 2
+    }
+  },
+  "far_ood": {
+    "split": "far_ood",
+    "dataset_path": "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/far_ood/grid_cot_test_far_ood.json",
+    "num_samples": 8,
+    "size_distribution": {
+      "6x6": 2,
+      "6x7": 2,
+      "7x6": 2,
+      "7x7": 2
+    }
+  }
+}

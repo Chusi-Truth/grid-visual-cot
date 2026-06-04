@@ -1,0 +1,15 @@
+{
+  "num_samples": 1,
+  "num_reached_goal": 1,
+  "num_exact_match": 0,
+  "num_declared_no_path": 0,
+  "num_no_answer": 0,
+  "reached_goal_accuracy": 1.0,
+  "exact_match_accuracy": 0.0,
+  "status_counts": {
+    "reached_goal": 1
+  },
+  "elapsed_seconds": 30.18,
+  "prompt_tokens": 1300,
+  "completion_tokens": 2093
+}

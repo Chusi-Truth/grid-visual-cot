@@ -1,0 +1,4 @@
+Far-OOD ReachedGoalAccuracy (40 samples)
+- text-only (2k run1): 0.0000
+- state-only (2k run1): 0.0500
+- state-desc (2k/8k run2): 0.0500

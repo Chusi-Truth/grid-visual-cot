@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-03-28T15:01:33.903299+08:00",
+  "split": "near_ood",
+  "dataset_path": "/root/CoVT/visual-cot/eval/2026-03-28_near_far_ood_smoke/near_ood/grid_cot_test_near_ood.json",
+  "num_samples": 8,
+  "sizes": [
+    "4x6",
+    "6x4",
+    "4x7",
+    "6x5"
+  ],
+  "size_distribution": {
+    "4x6": 2,
+    "6x4": 2,
+    "4x7": 2,
+    "6x5": 2
+  },
+  "generation_args": {
+    "p": 0.8,
+    "base_seed": 810000,
+    "image_size": 256
+  }
+}

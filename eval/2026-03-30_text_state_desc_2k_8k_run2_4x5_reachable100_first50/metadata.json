@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-30T15:32:14.183769+08:00",
+  "model_path": "/root/autodl-tmp/visual-cot_output/grid_cot_text_state_desc_2k_8k_run2",
+  "dataset_path": "/root/CoVT/visual-cot/eval/2026-03-27_reachable_holdout100/grid_cot_test_reachable_100.json",
+  "max_new_tokens": 3072,
+  "batch_size": 1,
+  "threshold_area": 20,
+  "bucket_rules": {
+    "lt_20": "rows*cols < 20",
+    "eq_20": "rows*cols == 20",
+    "gt_20": "rows*cols > 20"
+  }
+}

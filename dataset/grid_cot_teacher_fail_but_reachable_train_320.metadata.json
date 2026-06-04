@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-30T16:28:19.884458+08:00",
+  "input_dataset": "dataset/grid_cot_state_only_2k.json",
+  "output_dataset": "dataset/grid_cot_teacher_fail_but_reachable_train_320.json",
+  "selection_rule": "teacher <answer> indicates fail/no-path AND BFS confirms map reachable",
+  "stats": {
+    "total": 2000,
+    "teacher_fail": 320,
+    "reachable_among_teacher_fail": 320,
+    "selected": 320,
+    "parse_error": 0
+  }
+}

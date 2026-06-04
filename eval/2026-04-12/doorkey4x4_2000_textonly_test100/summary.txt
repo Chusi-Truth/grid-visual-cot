@@ -1,0 +1,8 @@
+MiniGrid DoorKey Eval Summary
+DateTime: 2026-04-12T17:19:43.166404+08:00
+Model: /root/autodl-tmp/visual-cot_output/minigrid4x4_doorkey_2000_textonly_merged
+Dataset: dataset/minigrid4x4_doorkey_test100.json
+TotalSamples: 100
+ReachedGoalAccuracy: 0.9800
+NoAnswer: 0
+StatusCounts: {"reached_goal": 98, "stopped_before_goal": 2}

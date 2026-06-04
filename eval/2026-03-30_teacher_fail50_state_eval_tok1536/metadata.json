@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-30T19:25:21.614288+08:00",
+  "model_path": "/root/autodl-tmp/visual-cot_output/grid_cot_state_only_2k_with_stepaux_run1",
+  "dataset_path": "/root/CoVT/visual-cot/eval/2026-03-30_teacher_fail_but_reachable50_regen/grid_cot_test_teacher_fail_but_reachable_50.json",
+  "max_new_tokens": 1536,
+  "batch_size": 4,
+  "threshold_area": 20,
+  "bucket_rules": {
+    "lt_20": "rows*cols < 20",
+    "eq_20": "rows*cols == 20",
+    "gt_20": "rows*cols > 20"
+  }
+}

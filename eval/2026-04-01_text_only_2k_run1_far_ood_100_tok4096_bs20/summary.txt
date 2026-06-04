@@ -1,0 +1,15 @@
+Text-Only Eval Summary
+DateTime: 2026-04-01T09:07:21.676685+08:00
+Model: /root/autodl-tmp/visual-cot_output/grid_cot_text_only_2k_run1_merged
+Dataset: /root/CoVT/visual-cot/eval/2026-03-29_size_generalization_3splits/far_ood/grid_cot_test_far_ood.json
+Samples: 100
+ReachedGoalAccuracy: 0.0000
+ExactMatchAccuracy: 0.0000
+ReachedGoalCount: 0
+ExactMatchCount: 0
+NoAnswerCount: 0
+DeclaredNoPathCount: 0
+ElapsedSeconds: 1316.16
+StatusCounts: {"stopped_before_goal": 40, "fell_into_hole": 60}
+
+No dedicated test split was found; this run uses the provided dataset as the evaluation set.

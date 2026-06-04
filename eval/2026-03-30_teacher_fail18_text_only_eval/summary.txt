@@ -1,0 +1,14 @@
+Eval Accuracy By Size Summary
+DateTime: 2026-03-30T18:08:37.044989+08:00
+Model: /root/autodl-tmp/visual-cot_output/grid_cot_text_only_2k_run1
+Dataset: /root/CoVT/visual-cot/eval/2026-03-30_teacher_fail_but_reachable30_bfs/grid_cot_test_teacher_fail_but_reachable_30.json
+ThresholdArea: 20
+TotalSamples: 18
+TotalReachedGoalAccuracy: 0.1667
+TotalExactMatchAccuracy: 0.0000
+TotalStatusCounts: {"stopped_before_goal": 9, "fell_into_hole": 6, "reached_goal": 3}
+
+eq_20.Samples: 18
+eq_20.ReachedGoalAccuracy: 0.1667
+eq_20.ExactMatchAccuracy: 0.0000
+eq_20.StatusCounts: {"stopped_before_goal": 9, "fell_into_hole": 6, "reached_goal": 3}

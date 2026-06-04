@@ -1,0 +1,14 @@
+{
+  "overall": {
+    "num_samples": 50,
+    "num_reached_goal": 15,
+    "num_no_answer": 3,
+    "status_counts": {
+      "stopped_before_goal": 32,
+      "reached_goal": 15,
+      "no_answer": 3
+    },
+    "reached_goal_accuracy": 0.3,
+    "elapsed_seconds": 517.32
+  }
+}

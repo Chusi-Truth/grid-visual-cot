@@ -1,0 +1,14 @@
+Eval Accuracy By Size Summary
+DateTime: 2026-04-03T17:24:24.070730+08:00
+Model: /root/autodl-tmp/visual-cot_output/grid_cot_text_only_2k_bfs_run1_bs4_s4000
+Dataset: /root/CoVT/visual-cot/eval/2026-03-30_reachable_holdout100_bfs/grid_cot_test_reachable_100.json
+ThresholdArea: 20
+TotalSamples: 100
+TotalReachedGoalAccuracy: 0.1100
+TotalExactMatchAccuracy: 0.0400
+TotalStatusCounts: {"no_answer": 88, "reached_goal": 11, "stopped_before_goal": 1}
+
+eq_20.Samples: 100
+eq_20.ReachedGoalAccuracy: 0.1100
+eq_20.ExactMatchAccuracy: 0.0400
+eq_20.StatusCounts: {"no_answer": 88, "reached_goal": 11, "stopped_before_goal": 1}
